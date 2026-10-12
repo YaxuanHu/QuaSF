@@ -4,11 +4,79 @@
 
 QuaSF predicts protein regions and assigns a separate function query to each final region, using frozen ESM2 residue features. This repository contains the paper model, training/evaluation code, paper baselines, and figure/metric provenance. The October 12 release includes the Region MLP comparison and P43561 case in the current manuscript.
 
-## Run the four paper examples on CPU
+## 四条蛋白质快速开始 / Four-protein CPU demo
 
-Start with [四条蛋白质示例 / Four-protein demo](docs/FOUR_PROTEIN_DEMO.md): exact download, installation and run commands for **Q7SDR1, A1L0T0, A9KIG5 and Q7SIG6** from the final structure figure. The 12 MB example bundle includes their sequences and original ESM features. Three released weights are required; no GPU or full test dataset is needed.
+测试论文最后一张结构图中的 **Q7SDR1、A1L0T0、A9KIG5、Q7SIG6**。提供四条完整序列及对应 ESM 特征；下载三个发布权重后即可在 CPU 上实际推理，无需 GPU、训练数据或完整测试集。
 
-After downloading the inputs, run `python demo.py --examples demo-assets/paper-examples --weights weights --output demo-output`. Actual CPU inference produces **2, 3, 4 and 5 regions**, with region boundaries and function probabilities in TSV/JSON. See [verified example output](examples/expected/regions.tsv).
+以下命令适用于 Linux Bash（Windows 可用 WSL），建议 Python 3.10。**所有命令在仓库根目录 `QuaSF/` 执行**。示例特征包约 12 MB，三个权重合计约 2.95 GB。
+
+### 1. 获取代码并安装
+
+```bash
+git clone https://github.com/YaxuanHu/QuaSF.git
+cd QuaSF
+python3.10 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install torch==2.5.0 --index-url https://download.pytorch.org/whl/cpu
+python -m pip install -e .
+```
+
+### 2. 下载权重与四条示例输入
+
+```bash
+mkdir -p weights demo-assets
+BASE=https://github.com/YaxuanHu/QuaSF/releases/download/v0.2.0-paper-20261012
+for FILE in quasf-selected.ckpt segmentation-source.ckpt direct-query.pt; do
+  curl -fL --retry 3 "$BASE/$FILE" -o "weights/$FILE" || exit 1
+done
+curl -fL --retry 3 \
+  https://github.com/YaxuanHu/QuaSF/releases/download/v0.2.1-examples/paper-examples.tar.gz \
+  -o demo-assets/paper-examples.tar.gz
+python -c "import hashlib; from pathlib import Path; p=Path('demo-assets/paper-examples.tar.gz'); assert hashlib.sha256(p.read_bytes()).hexdigest() == 'd62c08b29c1de7e818af44a8cb0baebf0d93815dec61d117178f855e21cd3071', 'Example download checksum mismatch'"
+tar -xzf demo-assets/paper-examples.tar.gz -C demo-assets
+```
+
+目录准备完成后应有：
+
+```text
+QuaSF/
+├── demo.py
+├── weights/
+│   ├── quasf-selected.ckpt
+│   ├── segmentation-source.ckpt
+│   └── direct-query.pt
+├── demo-assets/paper-examples/
+│   ├── sequences.fasta
+│   ├── records.jsonl
+│   ├── manifest.json
+│   └── features/                 # 四个 .pt 特征文件
+└── examples/expected/            # 已验证输出，仅供对照
+```
+
+### 3. 运行并查看结果
+
+```bash
+OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 \
+  python demo.py --examples demo-assets/paper-examples --weights weights --output demo-output
+cat demo-output/regions.tsv
+```
+
+实测成功输出：
+
+```text
+Q7SDR1: 390 residues, 2 regions
+A1L0T0: 632 residues, 3 regions
+A9KIG5: 577 residues, 4 regions
+Q7SIG6: 958 residues, 5 regions
+SUCCESS: fresh predictions for all four proteins saved in demo-output
+```
+
+`demo-output/regions.tsv` 给出区域边界、功能类别和概率；`demo-output/predictions.json` 保存全部 14 个区域的 256 维功能概率和运行信息。边界为 **1-based inclusive**，功能阈值为 **0.27**，一个区域可以有多个功能预测。类别为 cluster ID，已恢复词表并非完整 GO 注释。CPU FP32 的细小浮点差异是允许的。
+
+四条序列可直接查看 [examples/sequences.fasta](examples/sequences.fasta)，实际结果见 [examples/expected/regions.tsv](examples/expected/regions.tsv)。程序每次执行真实前向推理，不读取 `expected/`。输入依赖随包提供的 ESM 特征，更换 FASTA 需要重新生成匹配特征。
+
+[examples 子目录说明](examples/README.md)同样包含安装、下载、运行、输出解释，并给出了**从子目录直接运行**的相对路径命令。[完整使用说明](docs/FOUR_PROTEIN_DEMO.md)还包含校验、常见错误、macOS 安装差异和实测范围。
 
 ## Install and check
 

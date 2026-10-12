@@ -6,12 +6,11 @@
 
 ## 1. 安装
 
-以下是 Linux/macOS 的 Bash 命令，建议 Python 3.10。服务器已经有环境的用户可直接跳到第 3 步。Windows 可用 WSL 运行下列命令。
+以下是 Linux/macOS 的 Bash 命令，建议 Python 3.10。已有可用环境的用户可跳过安装，但仍须完成第 2 步准备输入和权重。Windows 可用 WSL 运行下列命令。
 
 ```bash
 git clone https://github.com/YaxuanHu/QuaSF.git
 cd QuaSF
-git checkout v0.2.1-examples
 python3.10 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
