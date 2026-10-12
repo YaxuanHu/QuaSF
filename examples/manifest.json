@@ -1,0 +1,17 @@
+{
+  "accessions": [
+    "Q7SDR1",
+    "A1L0T0",
+    "A9KIG5",
+    "Q7SIG6"
+  ],
+  "sha256": {
+    "sequences.fasta": "364cfc3b90df850dadff7523ec6d4fb71e9354a3b027b93283582ab4033dea2a",
+    "records.jsonl": "a6772fa15d1401551b1a96976c4150ddee009909e2c0906c7b8fcef7c7a9b7c4",
+    "features/Q7SDR1.pt": "4be5346c09f37b5667bdf24b571abcdcd6a4f66acb02679c8433b5c74b7a1191",
+    "features/Q7SIG6.pt": "78e5598eadd8898e326ad98a1a093a263a31dd471c63adc4267303b55893b555",
+    "features/A9KIG5.pt": "e16033df0042e249bda3a155e2792b4f2d1ccdabf7c5eaca0f9a92f459e3c4d7",
+    "features/A1L0T0.pt": "e6ce6907e4d08cc367f79265ac8c2a55fed82972a7d61a67b6e6c91292f6926d"
+  },
+  "provenance": "Original released test ESM features; reference annotations excluded"
+}

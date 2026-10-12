@@ -1,5 +1,10 @@
 # Public reproduction guide
 
+For a small runnable example, start with [the four-protein demo](FOUR_PROTEIN_DEMO.md).
+It supplies all four sequences and original features from the final structure figure,
+an executable CPU inference command, and verified TSV/JSON output. The remainder of
+this guide covers the larger release layout, cached scoring and full evaluation.
+
 ## 1. Download and lay out assets
 
 Run from the repository root. `gh` is the optional GitHub CLI; browser downloads work too.

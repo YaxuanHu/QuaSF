@@ -8,3 +8,6 @@ build/
 *.ckpt
 *.pt
 *.npz
+weights/
+demo-assets/
+demo-output/

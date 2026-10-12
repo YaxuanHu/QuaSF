@@ -32,3 +32,11 @@ compatibility. No checkpoint conversion, new training or full-test rerun occurs.
 The remote backup tag is archive/pre-paper-only-20260930.
 
 2026-10-12 packaging update: Region MLP is restored only under analysis as an independent paper comparator. Core computation, public CLIs and checkpoint namespaces are unchanged. Release assets remain outside the Python package. See docs/PAPER_CODE_MAP.md.
+
+Four-protein demo: root demo.py is a user-facing inference adapter. Its CLI takes
+--examples, --weights and --output directories; it reuses paper_train.restore,
+data.EndToEndDomainFunctionDataset and the unchanged model forward path. Input
+records contain no reference labels. Output JSON/TSV are new standalone formats,
+not replacements for paper evaluator records. examples/expected contains only
+verification artifacts and is never consumed by inference. No package API,
+checkpoint state, model computation or historical scientific file is modified.

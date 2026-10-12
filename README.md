@@ -4,6 +4,12 @@
 
 QuaSF predicts protein regions and assigns a separate function query to each final region, using frozen ESM2 residue features. This repository contains the paper model, training/evaluation code, paper baselines, and figure/metric provenance. The October 12 release includes the Region MLP comparison and P43561 case in the current manuscript.
 
+## Run the four paper examples on CPU
+
+Start with [四条蛋白质示例 / Four-protein demo](docs/FOUR_PROTEIN_DEMO.md): exact download, installation and run commands for **Q7SDR1, A1L0T0, A9KIG5 and Q7SIG6** from the final structure figure. The 12 MB example bundle includes their sequences and original ESM features. Three released weights are required; no GPU or full test dataset is needed.
+
+After downloading the inputs, run `python demo.py --examples demo-assets/paper-examples --weights weights --output demo-output`. Actual CPU inference produces **2, 3, 4 and 5 regions**, with region boundaries and function probabilities in TSV/JSON. See [verified example output](examples/expected/regions.tsv).
+
 ## Install and check
 
 Python 3.10 is the recorded runtime. Install the appropriate PyTorch build for your machine, then:
