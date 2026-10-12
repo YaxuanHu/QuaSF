@@ -1,0 +1,83 @@
+{
+  "kind": "exploratory existing MLP; different training losses and schedule",
+  "mlp_sha256": "55382e6c1032ddef3d6cfedcec8f1450c81e84b107ff203ae3418deccc17711f",
+  "mlp_training_metadata": {
+    "input_dim": 2560,
+    "hidden_dim": 512,
+    "classes": 256,
+    "feature": "concat(mean,max)",
+    "val": {
+      "macro_fmax": 0.8705487847328186,
+      "threshold": 0.4399999976158142,
+      "precision": 0.8360637426376343,
+      "recall": 0.9080008864402771
+    },
+    "epoch": 30,
+    "seed": 42
+  },
+  "cohort_sha256": "5c1ef2e407732b302af9b3376889e6807a729f5de3aa2c9350fcdd897a83cdd2",
+  "splits": {
+    "val": {
+      "proteins": 9014,
+      "matched_regions": 11698,
+      "models": {
+        "QuaSF": {
+          "threshold": 0.27,
+          "matched_f1": 0.9120403106635732,
+          "preference": {
+            "correct": 1654,
+            "comparisons": 1681,
+            "eligible_proteins": 873,
+            "ties": 0,
+            "accuracy": 0.9839381320642475
+          }
+        },
+        "RegionMLP": {
+          "threshold": 0.45,
+          "matched_f1": 0.8767782628647186,
+          "preference": {
+            "correct": 1619,
+            "comparisons": 1681,
+            "eligible_proteins": 873,
+            "ties": 0,
+            "accuracy": 0.9631171921475312
+          }
+        }
+      },
+      "quasf_full_cache_reproduction": true,
+      "source_summary_sha256": "156686f7c4d6a2fc4e3d4a5d3df64ea1230645e9547743e791af47fd4cf950d1",
+      "split_sha256": "2431fc84e2ef019a66f5ef2fce090453c8cfd9a1fb4ba10783def4579b6689a5"
+    },
+    "test": {
+      "proteins": 9015,
+      "matched_regions": 11034,
+      "models": {
+        "QuaSF": {
+          "threshold": 0.27,
+          "matched_f1": 0.8836143673872502,
+          "preference": {
+            "correct": 2430,
+            "comparisons": 2444,
+            "eligible_proteins": 1277,
+            "ties": 0,
+            "accuracy": 0.9942716857610474
+          }
+        },
+        "RegionMLP": {
+          "threshold": 0.45,
+          "matched_f1": 0.8404937371942506,
+          "preference": {
+            "correct": 2401,
+            "comparisons": 2444,
+            "eligible_proteins": 1277,
+            "ties": 0,
+            "accuracy": 0.9824058919803601
+          }
+        }
+      },
+      "quasf_full_cache_reproduction": true,
+      "source_summary_sha256": "d05d7eb0f93fe7e6b4446dfbf6b69f6839537c20454a4f88142262b4e893cfc5",
+      "split_sha256": "c9fc6e69b82f5dd9028bd6d2999865ee4f11b5209c7a6b5be6c4169c43bc6f72"
+    }
+  }
+}

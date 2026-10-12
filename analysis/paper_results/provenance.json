@@ -1,0 +1,5 @@
+{
+  "checkpoint_sha256": "d355049c93c8a94fab9fd5c78772edf8053e7593b3f7b2494a75607bd4c381fe",
+  "runner_sha256": "8ee16feca42a615256b16d6d5e4118b662cf78f19b9d28ae67f4521c7667ce66",
+  "note": "Original joint scorer reused with threshold changed from .24 to .27; original script hash in joint summary identifies the source, runner hash here identifies the override. Old control reproduces 5272 at 9149 and 5051 at .24. Old localization illustration is NOT valid for new model. All 14 structural case masks unchanged and displayed labels above .27."
+}

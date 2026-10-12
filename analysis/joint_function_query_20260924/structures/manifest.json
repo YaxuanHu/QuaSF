@@ -1,0 +1,42 @@
+[
+  {
+    "accession": "A1L0T0",
+    "source_url": "https://alphafold.ebi.ac.uk/files/AF-A1L0T0-F1-model_v6.pdb",
+    "pdb_sha256": "4b18aed3555bcd2f7aa54e609dffdea11961fde2d2c1d29dc5f7cb1253bbce1f",
+    "pdb_bytes": 394874,
+    "residues": 632,
+    "test_sequence_sha256": "911c58a82224494825fde9a5b32e405e6d17402da5ff3eb890f31d951f8c1c99",
+    "exact_CA_sequence_match": true,
+    "model_type": "AlphaFold DB predicted structure v6; not experimental coordinates"
+  },
+  {
+    "accession": "A9KIG5",
+    "source_url": "https://alphafold.ebi.ac.uk/files/AF-A9KIG5-F1-model_v6.pdb",
+    "pdb_sha256": "e02c412740378c740978968ac256b6e025203e8c6beb5049366d577391766e0f",
+    "pdb_bytes": 369521,
+    "residues": 577,
+    "test_sequence_sha256": "16ddb4d979939c7055cdc748fe4a9ed471bb754e7c78258bbca083f3df3350c5",
+    "exact_CA_sequence_match": true,
+    "model_type": "AlphaFold DB predicted structure v6; not experimental coordinates"
+  },
+  {
+    "accession": "Q7SDR1",
+    "source_url": "https://alphafold.ebi.ac.uk/files/AF-Q7SDR1-F1-model_v6.pdb",
+    "pdb_sha256": "2dc95a469adf03aa9ebd60192c9012b4b922f5ba9eafc3e9230a7d61b25d6c0b",
+    "pdb_bytes": 246239,
+    "residues": 390,
+    "test_sequence_sha256": "e6d156bfbbee29a30bd2cd6c5c0707e82316761d6bcaaa8583cd0ea2de0d056e",
+    "exact_CA_sequence_match": true,
+    "model_type": "AlphaFold DB predicted structure v6; not experimental coordinates"
+  },
+  {
+    "accession": "Q7SIG6",
+    "source_url": "https://alphafold.ebi.ac.uk/files/AF-Q7SIG6-F1-model_v6.pdb",
+    "pdb_sha256": "6263a44df8ac9a5f231943a10a859bed1861dfb3c9835dbc143bf20f5bb2fe86",
+    "pdb_bytes": 617219,
+    "residues": 958,
+    "test_sequence_sha256": "a11ba568242df5245091bb865bd9c45869ab6afc14dccbb0b2c7a4b1233ad6bb",
+    "exact_CA_sequence_match": true,
+    "model_type": "AlphaFold DB predicted structure v6; not experimental coordinates"
+  }
+]

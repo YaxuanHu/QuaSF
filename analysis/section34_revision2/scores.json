@@ -1,0 +1,149 @@
+{
+  "accession": "P43561",
+  "length": 622,
+  "classes": [
+    34,
+    52
+  ],
+  "models": {
+    "Shared query": [
+      {
+        "scores": [
+          0.9184802770614624,
+          0.9805806875228882
+        ],
+        "reference_segments": [
+          [
+            17,
+            150
+          ]
+        ],
+        "predicted_segments": [
+          [
+            19,
+            148
+          ]
+        ],
+        "labels": [
+          true,
+          false
+        ]
+      },
+      {
+        "scores": [
+          0.9184802770614624,
+          0.9805806875228882
+        ],
+        "reference_segments": [
+          [
+            343,
+            536
+          ]
+        ],
+        "predicted_segments": [
+          [
+            341,
+            538
+          ]
+        ],
+        "labels": [
+          true,
+          true
+        ]
+      }
+    ],
+    "Region MLP": [
+      {
+        "scores": [
+          0.994419515132904,
+          0.7869157195091248
+        ],
+        "reference_segments": [
+          [
+            17,
+            150
+          ]
+        ],
+        "predicted_segments": [
+          [
+            19,
+            150
+          ]
+        ],
+        "labels": [
+          true,
+          false
+        ]
+      },
+      {
+        "scores": [
+          0.9351003766059875,
+          0.22950470447540283
+        ],
+        "reference_segments": [
+          [
+            343,
+            536
+          ]
+        ],
+        "predicted_segments": [
+          [
+            342,
+            533
+          ]
+        ],
+        "labels": [
+          true,
+          true
+        ]
+      }
+    ],
+    "QuaSF": [
+      {
+        "scores": [
+          0.9999990463256836,
+          0.0002780309587251395
+        ],
+        "reference_segments": [
+          [
+            17,
+            150
+          ]
+        ],
+        "predicted_segments": [
+          [
+            19,
+            150
+          ]
+        ],
+        "labels": [
+          true,
+          false
+        ]
+      },
+      {
+        "scores": [
+          0.9999985694885254,
+          0.9933071732521057
+        ],
+        "reference_segments": [
+          [
+            343,
+            536
+          ]
+        ],
+        "predicted_segments": [
+          [
+            342,
+            533
+          ]
+        ],
+        "labels": [
+          true,
+          true
+        ]
+      }
+    ]
+  },
+  "selection": "Selected to illustrate an MLP regional-preference error corrected by QuaSF; two annotated reference regions, not all protein regions."
+}

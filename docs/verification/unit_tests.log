@@ -1,0 +1,13 @@
+test_outputs_and_gradients (test_direct_aggregation.AggregationParity) ... ok
+test_factory_preserves_recorded_direct_initialization (test_direct_model.DirectModelTests) ... ok
+test_no_base_mlp_and_trainable_direct_logits (test_direct_model.DirectModelTests) ... ok
+test_distinct_regions_and_mask_gradient (test_release_numerics.ReleaseContracts) ... ok
+test_empty_region_placeholder_is_excluded (test_release_numerics.ReleaseContracts) ... ok
+test_strict_metrics_penalize_missed_and_extra_regions (test_release_numerics.ReleaseContracts) ... ok
+test_package_has_no_dynamic_or_experiment_imports (test_release_source.ReleaseSourceTests) ... ok
+test_recorded_definition_hashes (test_release_source.ReleaseSourceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.879s
+
+OK

@@ -1,0 +1,166 @@
+[
+  {
+    "accession": "Q7SDR1",
+    "count_matches": true,
+    "regions": [
+      {
+        "region": 1,
+        "same_mask": true,
+        "label": "Cellulose binding",
+        "label_index": 4,
+        "new_score": 0.9999573230743408,
+        "top_class": 4,
+        "top_score": 0.9999573230743408,
+        "old_score": 0.9999039173126221
+      },
+      {
+        "region": 2,
+        "same_mask": true,
+        "label": "O-glycosyl hydrolase",
+        "label_index": 113,
+        "new_score": 0.9997219443321228,
+        "top_class": 113,
+        "top_score": 0.9997219443321228,
+        "old_score": 0.999997615814209
+      }
+    ]
+  },
+  {
+    "accession": "A1L0T0",
+    "count_matches": true,
+    "regions": [
+      {
+        "region": 1,
+        "same_mask": true,
+        "label": "TPP binding",
+        "label_index": 7,
+        "new_score": 0.999987006187439,
+        "top_class": 7,
+        "top_score": 0.999987006187439,
+        "old_score": 0.9996849298477173
+      },
+      {
+        "region": 2,
+        "same_mask": true,
+        "label": "Mg ion binding",
+        "label_index": 34,
+        "new_score": 0.971563994884491,
+        "top_class": 7,
+        "top_score": 0.9999741315841675,
+        "old_score": 0.4834045469760895
+      },
+      {
+        "region": 3,
+        "same_mask": true,
+        "label": "Catalytic activity",
+        "label_index": 87,
+        "new_score": 0.9990890026092529,
+        "top_class": 7,
+        "top_score": 0.9999667406082153,
+        "old_score": 0.9994471669197083
+      }
+    ]
+  },
+  {
+    "accession": "A9KIG5",
+    "count_matches": true,
+    "regions": [
+      {
+        "region": 1,
+        "same_mask": true,
+        "label": "Zn ion binding",
+        "label_index": 34,
+        "new_score": 0.9997219443321228,
+        "top_class": 18,
+        "top_score": 0.9997546076774597,
+        "old_score": 0.685949444770813
+      },
+      {
+        "region": 2,
+        "same_mask": true,
+        "label": "ATP hydrolysis",
+        "label_index": 22,
+        "new_score": 0.9999979734420776,
+        "top_class": 22,
+        "top_score": 0.9999979734420776,
+        "old_score": 0.9999995231628418
+      },
+      {
+        "region": 3,
+        "same_mask": true,
+        "label": "ATP binding",
+        "label_index": 18,
+        "new_score": 0.9998977184295654,
+        "top_class": 18,
+        "top_score": 0.9998977184295654,
+        "old_score": 0.9996646642684937
+      },
+      {
+        "region": 4,
+        "same_mask": true,
+        "label": "Peptidase activity",
+        "label_index": 77,
+        "new_score": 0.9997040629386902,
+        "top_class": 77,
+        "top_score": 0.9997040629386902,
+        "old_score": 0.9999039173126221
+      }
+    ]
+  },
+  {
+    "accession": "Q7SIG6",
+    "count_matches": true,
+    "regions": [
+      {
+        "region": 1,
+        "same_mask": true,
+        "label": "Protein binding",
+        "label_index": 14,
+        "new_score": 0.9353464841842651,
+        "top_class": 14,
+        "top_score": 0.9353464841842651,
+        "old_score": 0.9732407331466675
+      },
+      {
+        "region": 2,
+        "same_mask": true,
+        "label": "Protein binding",
+        "label_index": 14,
+        "new_score": 0.9995694756507874,
+        "top_class": 14,
+        "top_score": 0.9995694756507874,
+        "old_score": 0.854884684085846
+      },
+      {
+        "region": 3,
+        "same_mask": true,
+        "label": "GTPase activator",
+        "label_index": 62,
+        "new_score": 0.9992678761482239,
+        "top_class": 62,
+        "top_score": 0.9992678761482239,
+        "old_score": 0.9998977184295654
+      },
+      {
+        "region": 4,
+        "same_mask": true,
+        "label": "Protein binding",
+        "label_index": 14,
+        "new_score": 0.9999151229858398,
+        "top_class": 14,
+        "top_score": 0.9999151229858398,
+        "old_score": 0.9999998807907104
+      },
+      {
+        "region": 5,
+        "same_mask": true,
+        "label": "Protein binding",
+        "label_index": 14,
+        "new_score": 0.9999980926513672,
+        "top_class": 14,
+        "top_score": 0.9999980926513672,
+        "old_score": 0.9999990463256836
+      }
+    ]
+  }
+]

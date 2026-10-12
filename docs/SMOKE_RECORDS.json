@@ -1,0 +1,17 @@
+[
+  {
+    "accession": "A0A044RE18",
+    "split": "val",
+    "esm_path": "data/dataset_v2/esm_features_v2/A0A044RE18.pt"
+  },
+  {
+    "accession": "P43561",
+    "split": "test",
+    "esm_path": "data/dataset_v2/esm_features_test_v2/P43561.pt"
+  },
+  {
+    "accession": "Q7SDR1",
+    "split": "test",
+    "esm_path": "data/dataset_v2/esm_features_test_v2/Q7SDR1.pt"
+  }
+]

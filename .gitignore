@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv*/
+assets/
+dist/
+build/
+*.egg-info/
+*.ckpt
+*.pt
+*.npz

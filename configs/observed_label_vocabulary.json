@@ -1,0 +1,5098 @@
+{
+  "provenance": "Recovered from released split annotations, not the original full GO mapping. May omit unobserved GO terms.",
+  "observed_class_count": 188,
+  "index_to_cluster": {
+    "0": "C2_000",
+    "2": "C2_002",
+    "3": "C2_003",
+    "4": "C2_004",
+    "5": "C2_005",
+    "6": "C2_006",
+    "7": "C2_007",
+    "8": "C2_008",
+    "9": "C2_009",
+    "10": "C2_010",
+    "11": "C2_011",
+    "12": "C2_012",
+    "13": "C2_013",
+    "14": "C2_014",
+    "15": "C2_015",
+    "16": "C2_016",
+    "17": "C2_017",
+    "18": "C2_018",
+    "19": "C2_019",
+    "20": "C2_020",
+    "21": "C2_021",
+    "22": "C2_022",
+    "23": "C2_023",
+    "24": "C2_024",
+    "25": "C2_025",
+    "26": "C2_026",
+    "27": "C2_027",
+    "28": "C2_028",
+    "29": "C2_029",
+    "31": "C2_031",
+    "32": "C2_032",
+    "33": "C2_033",
+    "34": "C2_034",
+    "36": "C2_036",
+    "37": "C2_037",
+    "38": "C2_038",
+    "39": "C2_039",
+    "41": "C2_041",
+    "43": "C2_043",
+    "44": "C2_044",
+    "46": "C2_046",
+    "47": "C2_047",
+    "48": "C2_048",
+    "49": "C2_049",
+    "50": "C2_050",
+    "52": "C2_052",
+    "53": "C2_053",
+    "54": "C2_054",
+    "55": "C2_055",
+    "57": "C2_057",
+    "58": "C2_058",
+    "60": "C2_060",
+    "61": "C2_061",
+    "62": "C2_062",
+    "63": "C2_063",
+    "64": "C2_064",
+    "66": "C2_066",
+    "67": "C2_067",
+    "68": "C2_068",
+    "69": "C2_069",
+    "70": "C2_070",
+    "72": "C2_072",
+    "75": "C2_075",
+    "76": "C2_076",
+    "77": "C2_077",
+    "78": "C2_078",
+    "79": "C2_079",
+    "80": "C2_080",
+    "81": "C2_081",
+    "82": "C2_082",
+    "83": "C2_083",
+    "84": "C2_084",
+    "85": "C2_085",
+    "86": "C2_086",
+    "87": "C2_087",
+    "88": "C2_088",
+    "89": "C2_089",
+    "90": "C2_090",
+    "91": "C2_091",
+    "92": "C2_092",
+    "93": "C2_093",
+    "94": "C2_094",
+    "95": "C2_095",
+    "96": "C2_096",
+    "97": "C2_097",
+    "99": "C2_099",
+    "100": "C2_100",
+    "102": "C2_102",
+    "103": "C2_103",
+    "105": "C2_105",
+    "106": "C2_106",
+    "107": "C2_107",
+    "108": "C2_108",
+    "109": "C2_109",
+    "111": "C2_111",
+    "112": "C2_112",
+    "113": "C2_113",
+    "115": "C2_115",
+    "117": "C2_117",
+    "118": "C2_118",
+    "119": "C2_119",
+    "121": "C2_121",
+    "122": "C2_122",
+    "123": "C2_123",
+    "125": "C2_125",
+    "126": "C2_126",
+    "127": "C2_127",
+    "128": "C2_128",
+    "129": "C2_129",
+    "130": "C2_130",
+    "131": "C2_131",
+    "132": "C2_132",
+    "133": "C2_133",
+    "134": "C2_134",
+    "135": "C2_135",
+    "137": "C2_137",
+    "138": "C2_138",
+    "139": "C2_139",
+    "141": "C2_141",
+    "142": "C2_142",
+    "143": "C2_143",
+    "144": "C2_144",
+    "146": "C2_146",
+    "147": "C2_147",
+    "148": "C2_148",
+    "149": "C2_149",
+    "150": "C2_150",
+    "151": "C2_151",
+    "152": "C2_152",
+    "155": "C2_155",
+    "156": "C2_156",
+    "157": "C2_157",
+    "160": "C2_160",
+    "161": "C2_161",
+    "164": "C2_164",
+    "165": "C2_165",
+    "166": "C2_166",
+    "167": "C2_167",
+    "168": "C2_168",
+    "169": "C2_169",
+    "170": "C2_170",
+    "173": "C2_173",
+    "175": "C2_175",
+    "176": "C2_176",
+    "178": "C2_178",
+    "179": "C2_179",
+    "180": "C2_180",
+    "181": "C2_181",
+    "182": "C2_182",
+    "183": "C2_183",
+    "184": "C2_184",
+    "186": "C2_186",
+    "189": "C2_189",
+    "190": "C2_190",
+    "191": "C2_191",
+    "192": "C2_192",
+    "193": "C2_193",
+    "194": "C2_194",
+    "195": "C2_195",
+    "196": "C2_196",
+    "197": "C2_197",
+    "198": "C2_198",
+    "199": "C2_199",
+    "200": "C2_200",
+    "201": "C2_201",
+    "203": "C2_203",
+    "205": "C2_205",
+    "207": "C2_207",
+    "208": "C2_208",
+    "209": "C2_209",
+    "210": "C2_210",
+    "211": "C2_211",
+    "213": "C2_213",
+    "214": "C2_214",
+    "215": "C2_215",
+    "216": "C2_216",
+    "219": "C2_219",
+    "222": "C2_222",
+    "223": "C2_223",
+    "224": "C2_224",
+    "225": "C2_225",
+    "229": "C2_229",
+    "230": "C2_230",
+    "231": "C2_231",
+    "232": "C2_232",
+    "234": "C2_234",
+    "235": "C2_235",
+    "253": "C2_253"
+  },
+  "observed_go_terms": {
+    "GO:0000981": {
+      "go_id": "GO:0000981",
+      "go_name": "DNA-binding transcription factor activity, RNA polymerase II-specific",
+      "level_2_cluster_id": "C2_050",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0008270": {
+      "go_id": "GO:0008270",
+      "go_name": "zinc ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004497": {
+      "go_id": "GO:0004497",
+      "go_name": "monooxygenase activity",
+      "level_2_cluster_id": "C2_031",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0005506": {
+      "go_id": "GO:0005506",
+      "go_name": "iron ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016705": {
+      "go_id": "GO:0016705",
+      "go_name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",
+      "level_2_cluster_id": "C2_168",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0020037": {
+      "go_id": "GO:0020037",
+      "go_name": "heme binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016765": {
+      "go_id": "GO:0016765",
+      "go_name": "transferase activity, transferring alkyl or aryl (other than methyl) groups",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004553": {
+      "go_id": "GO:0004553",
+      "go_name": "hydrolase activity, hydrolyzing O-glycosyl compounds",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0005524": {
+      "go_id": "GO:0005524",
+      "go_name": "ATP binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016714": {
+      "go_id": "GO:0016714",
+      "go_name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced pteridine as one donor, and incorporation of one atom of oxygen",
+      "level_2_cluster_id": "C2_232",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004781": {
+      "go_id": "GO:0004781",
+      "go_name": "sulfate adenylyltransferase (ATP) activity",
+      "level_2_cluster_id": "C2_037",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008168": {
+      "go_id": "GO:0008168",
+      "go_name": "methyltransferase activity",
+      "level_2_cluster_id": "C2_105",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0005507": {
+      "go_id": "GO:0005507",
+      "go_name": "copper ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016491": {
+      "go_id": "GO:0016491",
+      "go_name": "oxidoreductase activity",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0008757": {
+      "go_id": "GO:0008757",
+      "go_name": "S-adenosylmethionine-dependent methyltransferase activity",
+      "level_2_cluster_id": "C2_026",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0008171": {
+      "go_id": "GO:0008171",
+      "go_name": "O-methyltransferase activity",
+      "level_2_cluster_id": "C2_105",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0003777": {
+      "go_id": "GO:0003777",
+      "go_name": "microtubule motor activity",
+      "level_2_cluster_id": "C2_013",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0008017": {
+      "go_id": "GO:0008017",
+      "go_name": "microtubule binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0004866": {
+      "go_id": "GO:0004866",
+      "go_name": "endopeptidase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0009055": {
+      "go_id": "GO:0009055",
+      "go_name": "electron transfer activity",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008234": {
+      "go_id": "GO:0008234",
+      "go_name": "cysteine-type peptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0016788": {
+      "go_id": "GO:0016788",
+      "go_name": "hydrolase activity, acting on ester bonds",
+      "level_2_cluster_id": "C2_095",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0008519": {
+      "go_id": "GO:0008519",
+      "go_name": "ammonium channel activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0015267": {
+      "go_id": "GO:0015267",
+      "go_name": "channel activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0003755": {
+      "go_id": "GO:0003755",
+      "go_name": "peptidyl-prolyl cis-trans isomerase activity",
+      "level_2_cluster_id": "C2_082",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0003723": {
+      "go_id": "GO:0003723",
+      "go_name": "RNA binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0003743": {
+      "go_id": "GO:0003743",
+      "go_name": "translation initiation factor activity",
+      "level_2_cluster_id": "C2_081",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0016787": {
+      "go_id": "GO:0016787",
+      "go_name": "hydrolase activity",
+      "level_2_cluster_id": "C2_126",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0003677": {
+      "go_id": "GO:0003677",
+      "go_name": "DNA binding",
+      "level_2_cluster_id": "C2_024",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0005184": {
+      "go_id": "GO:0005184",
+      "go_name": "neuropeptide hormone activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0016620": {
+      "go_id": "GO:0016620",
+      "go_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+      "level_2_cluster_id": "C2_094",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0051287": {
+      "go_id": "GO:0051287",
+      "go_name": "NAD binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0046983": {
+      "go_id": "GO:0046983",
+      "go_name": "protein dimerization activity",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0004984": {
+      "go_id": "GO:0004984",
+      "go_name": "olfactory receptor activity",
+      "level_2_cluster_id": "C2_057",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0005525": {
+      "go_id": "GO:0005525",
+      "go_name": "GTP binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008194": {
+      "go_id": "GO:0008194",
+      "go_name": "UDP-glycosyltransferase activity",
+      "level_2_cluster_id": "C2_090",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0019786": {
+      "go_id": "GO:0019786",
+      "go_name": "protein-phosphatidylethanolamide deconjugating activity",
+      "level_2_cluster_id": "C2_087",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0035091": {
+      "go_id": "GO:0035091",
+      "go_name": "phosphatidylinositol binding",
+      "level_2_cluster_id": "C2_007",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0010181": {
+      "go_id": "GO:0010181",
+      "go_name": "FMN binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008061": {
+      "go_id": "GO:0008061",
+      "go_name": "chitin binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004096": {
+      "go_id": "GO:0004096",
+      "go_name": "catalase activity",
+      "level_2_cluster_id": "C2_133",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0016829": {
+      "go_id": "GO:0016829",
+      "go_name": "lyase activity",
+      "level_2_cluster_id": "C2_134",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004222": {
+      "go_id": "GO:0004222",
+      "go_name": "metalloendopeptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0071949": {
+      "go_id": "GO:0071949",
+      "go_name": "FAD binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0050661": {
+      "go_id": "GO:0050661",
+      "go_name": "NADP binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004185": {
+      "go_id": "GO:0004185",
+      "go_name": "serine-type carboxypeptidase activity",
+      "level_2_cluster_id": "C2_144",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0016887": {
+      "go_id": "GO:0016887",
+      "go_name": "ATP hydrolysis activity",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0016746": {
+      "go_id": "GO:0016746",
+      "go_name": "acyltransferase activity",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0016853": {
+      "go_id": "GO:0016853",
+      "go_name": "isomerase activity",
+      "level_2_cluster_id": "C2_082",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0051536": {
+      "go_id": "GO:0051536",
+      "go_name": "iron-sulfur cluster binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004322": {
+      "go_id": "GO:0004322",
+      "go_name": "ferroxidase activity",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0140315": {
+      "go_id": "GO:0140315",
+      "go_name": "iron ion sequestering activity",
+      "level_2_cluster_id": "C2_084",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0003924": {
+      "go_id": "GO:0003924",
+      "go_name": "GTPase activity",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0005085": {
+      "go_id": "GO:0005085",
+      "go_name": "guanyl-nucleotide exchange factor activity",
+      "level_2_cluster_id": "C2_044",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0043130": {
+      "go_id": "GO:0043130",
+      "go_name": "ubiquitin binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0030246": {
+      "go_id": "GO:0030246",
+      "go_name": "carbohydrate binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016757": {
+      "go_id": "GO:0016757",
+      "go_name": "glycosyltransferase activity",
+      "level_2_cluster_id": "C2_010",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004842": {
+      "go_id": "GO:0004842",
+      "go_name": "ubiquitin-protein transferase activity",
+      "level_2_cluster_id": "C2_086",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0008849": {
+      "go_id": "GO:0008849",
+      "go_name": "enterochelin esterase activity",
+      "level_2_cluster_id": "C2_095",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0015128": {
+      "go_id": "GO:0015128",
+      "go_name": "gluconate transmembrane transporter activity",
+      "level_2_cluster_id": "C2_196",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0046872": {
+      "go_id": "GO:0046872",
+      "go_name": "metal ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008658": {
+      "go_id": "GO:0008658",
+      "go_name": "penicillin binding",
+      "level_2_cluster_id": "C2_070",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0003700": {
+      "go_id": "GO:0003700",
+      "go_name": "DNA-binding transcription factor activity",
+      "level_2_cluster_id": "C2_050",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0015288": {
+      "go_id": "GO:0015288",
+      "go_name": "porin activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0043565": {
+      "go_id": "GO:0043565",
+      "go_name": "sequence-specific DNA binding",
+      "level_2_cluster_id": "C2_024",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0042586": {
+      "go_id": "GO:0042586",
+      "go_name": "peptide deformylase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0003918": {
+      "go_id": "GO:0003918",
+      "go_name": "DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) activity",
+      "level_2_cluster_id": "C2_078",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0004869": {
+      "go_id": "GO:0004869",
+      "go_name": "cysteine-type endopeptidase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0005515": {
+      "go_id": "GO:0005515",
+      "go_name": "protein binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0016614": {
+      "go_id": "GO:0016614",
+      "go_name": "oxidoreductase activity, acting on CH-OH group of donors",
+      "level_2_cluster_id": "C2_149",
+      "level_1_cluster_id": "C1_01"
+    },
+    "GO:0050660": {
+      "go_id": "GO:0050660",
+      "go_name": "flavin adenine dinucleotide binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0003678": {
+      "go_id": "GO:0003678",
+      "go_name": "DNA helicase activity",
+      "level_2_cluster_id": "C2_078",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0003682": {
+      "go_id": "GO:0003682",
+      "go_name": "chromatin binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016740": {
+      "go_id": "GO:0016740",
+      "go_name": "transferase activity",
+      "level_2_cluster_id": "C2_075",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016503": {
+      "go_id": "GO:0016503",
+      "go_name": "pheromone receptor activity",
+      "level_2_cluster_id": "C2_057",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0008009": {
+      "go_id": "GO:0008009",
+      "go_name": "chemokine activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0004930": {
+      "go_id": "GO:0004930",
+      "go_name": "G protein-coupled receptor activity",
+      "level_2_cluster_id": "C2_057",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0016747": {
+      "go_id": "GO:0016747",
+      "go_name": "acyltransferase activity, transferring groups other than amino-acyl groups",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0016616": {
+      "go_id": "GO:0016616",
+      "go_name": "oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",
+      "level_2_cluster_id": "C2_012",
+      "level_1_cluster_id": "C1_05"
+    },
+    "GO:0004672": {
+      "go_id": "GO:0004672",
+      "go_name": "protein kinase activity",
+      "level_2_cluster_id": "C2_016",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016846": {
+      "go_id": "GO:0016846",
+      "go_name": "carbon-sulfur lyase activity",
+      "level_2_cluster_id": "C2_134",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004659": {
+      "go_id": "GO:0004659",
+      "go_name": "prenyltransferase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0003824": {
+      "go_id": "GO:0003824",
+      "go_name": "catalytic activity",
+      "level_2_cluster_id": "C2_087",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0140359": {
+      "go_id": "GO:0140359",
+      "go_name": "ABC-type transporter activity",
+      "level_2_cluster_id": "C2_214",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:2001070": {
+      "go_id": "GO:2001070",
+      "go_name": "starch binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016779": {
+      "go_id": "GO:0016779",
+      "go_name": "nucleotidyltransferase activity",
+      "level_2_cluster_id": "C2_037",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0005509": {
+      "go_id": "GO:0005509",
+      "go_name": "calcium ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0061630": {
+      "go_id": "GO:0061630",
+      "go_name": "ubiquitin protein ligase activity",
+      "level_2_cluster_id": "C2_086",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0004197": {
+      "go_id": "GO:0004197",
+      "go_name": "cysteine-type endopeptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0000287": {
+      "go_id": "GO:0000287",
+      "go_name": "magnesium ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0010333": {
+      "go_id": "GO:0010333",
+      "go_name": "terpene synthase activity",
+      "level_2_cluster_id": "C2_100",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0003676": {
+      "go_id": "GO:0003676",
+      "go_name": "nucleic acid binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0000166": {
+      "go_id": "GO:0000166",
+      "go_name": "nucleotide binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004817": {
+      "go_id": "GO:0004817",
+      "go_name": "cysteine-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0019843": {
+      "go_id": "GO:0019843",
+      "go_name": "rRNA binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0051537": {
+      "go_id": "GO:0051537",
+      "go_name": "2 iron, 2 sulfur cluster binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0003735": {
+      "go_id": "GO:0003735",
+      "go_name": "structural constituent of ribosome",
+      "level_2_cluster_id": "C2_080",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0004421": {
+      "go_id": "GO:0004421",
+      "go_name": "hydroxymethylglutaryl-CoA synthase activity",
+      "level_2_cluster_id": "C2_097",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0050135": {
+      "go_id": "GO:0050135",
+      "go_name": "NADP+ nucleosidase activity",
+      "level_2_cluster_id": "C2_107",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0015276": {
+      "go_id": "GO:0015276",
+      "go_name": "ligand-gated monoatomic ion channel activity",
+      "level_2_cluster_id": "C2_180",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0003684": {
+      "go_id": "GO:0003684",
+      "go_name": "damaged DNA binding",
+      "level_2_cluster_id": "C2_024",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0003906": {
+      "go_id": "GO:0003906",
+      "go_name": "DNA-(apurinic or apyrimidinic site) endonuclease activity",
+      "level_2_cluster_id": "C2_002",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0016799": {
+      "go_id": "GO:0016799",
+      "go_name": "hydrolase activity, hydrolyzing N-glycosyl compounds",
+      "level_2_cluster_id": "C2_107",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0004386": {
+      "go_id": "GO:0004386",
+      "go_name": "helicase activity",
+      "level_2_cluster_id": "C2_078",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0016798": {
+      "go_id": "GO:0016798",
+      "go_name": "hydrolase activity, acting on glycosyl bonds",
+      "level_2_cluster_id": "C2_107",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0008236": {
+      "go_id": "GO:0008236",
+      "go_name": "serine-type peptidase activity",
+      "level_2_cluster_id": "C2_144",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0008131": {
+      "go_id": "GO:0008131",
+      "go_name": "primary methylamine oxidase activity",
+      "level_2_cluster_id": "C2_064",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0048038": {
+      "go_id": "GO:0048038",
+      "go_name": "quinone binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016763": {
+      "go_id": "GO:0016763",
+      "go_name": "pentosyltransferase activity",
+      "level_2_cluster_id": "C2_010",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004514": {
+      "go_id": "GO:0004514",
+      "go_name": "nicotinate-nucleotide diphosphorylase (carboxylating) activity",
+      "level_2_cluster_id": "C2_010",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004252": {
+      "go_id": "GO:0004252",
+      "go_name": "serine-type endopeptidase activity",
+      "level_2_cluster_id": "C2_144",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0005230": {
+      "go_id": "GO:0005230",
+      "go_name": "extracellular ligand-gated monoatomic ion channel activity",
+      "level_2_cluster_id": "C2_180",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0005549": {
+      "go_id": "GO:0005549",
+      "go_name": "odorant binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0043531": {
+      "go_id": "GO:0043531",
+      "go_name": "ADP binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0046873": {
+      "go_id": "GO:0046873",
+      "go_name": "metal ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0008962": {
+      "go_id": "GO:0008962",
+      "go_name": "phosphatidylglycerophosphatase activity",
+      "level_2_cluster_id": "C2_011",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0008736": {
+      "go_id": "GO:0008736",
+      "go_name": "L-fucose isomerase activity",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0016832": {
+      "go_id": "GO:0016832",
+      "go_name": "aldehyde-lyase activity",
+      "level_2_cluster_id": "C2_137",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0016868": {
+      "go_id": "GO:0016868",
+      "go_name": "intramolecular phosphotransferase activity",
+      "level_2_cluster_id": "C2_029",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0015078": {
+      "go_id": "GO:0015078",
+      "go_name": "proton transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0003899": {
+      "go_id": "GO:0003899",
+      "go_name": "DNA-directed RNA polymerase activity",
+      "level_2_cluster_id": "C2_109",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008137": {
+      "go_id": "GO:0008137",
+      "go_name": "NADH dehydrogenase (ubiquinone) activity",
+      "level_2_cluster_id": "C2_115",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0016702": {
+      "go_id": "GO:0016702",
+      "go_name": "oxidoreductase activity, acting on single donors with incorporation of molecular oxygen, incorporation of two atoms of oxygen",
+      "level_2_cluster_id": "C2_038",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0030248": {
+      "go_id": "GO:0030248",
+      "go_name": "cellulose binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004555": {
+      "go_id": "GO:0004555",
+      "go_name": "alpha,alpha-trehalase activity",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0004803": {
+      "go_id": "GO:0004803",
+      "go_name": "transposase activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0016651": {
+      "go_id": "GO:0016651",
+      "go_name": "oxidoreductase activity, acting on NAD(P)H",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0019901": {
+      "go_id": "GO:0019901",
+      "go_name": "protein kinase binding",
+      "level_2_cluster_id": "C2_182",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0004611": {
+      "go_id": "GO:0004611",
+      "go_name": "phosphoenolpyruvate carboxykinase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0019239": {
+      "go_id": "GO:0019239",
+      "go_name": "deaminase activity",
+      "level_2_cluster_id": "C2_003",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0005384": {
+      "go_id": "GO:0005384",
+      "go_name": "manganese ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0015297": {
+      "go_id": "GO:0015297",
+      "go_name": "antiporter activity",
+      "level_2_cluster_id": "C2_135",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0008199": {
+      "go_id": "GO:0008199",
+      "go_name": "ferric iron binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008661": {
+      "go_id": "GO:0008661",
+      "go_name": "1-deoxy-D-xylulose-5-phosphate synthase activity",
+      "level_2_cluster_id": "C2_075",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0070402": {
+      "go_id": "GO:0070402",
+      "go_name": "NADPH binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0030414": {
+      "go_id": "GO:0030414",
+      "go_name": "peptidase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0008883": {
+      "go_id": "GO:0008883",
+      "go_name": "glutamyl-tRNA reductase activity",
+      "level_2_cluster_id": "C2_005",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0004812": {
+      "go_id": "GO:0004812",
+      "go_name": "aminoacyl-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0004814": {
+      "go_id": "GO:0004814",
+      "go_name": "arginine-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0016462": {
+      "go_id": "GO:0016462",
+      "go_name": "pyrophosphatase activity",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0017025": {
+      "go_id": "GO:0017025",
+      "go_name": "TBP-class protein binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0008312": {
+      "go_id": "GO:0008312",
+      "go_name": "7S RNA binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0008837": {
+      "go_id": "GO:0008837",
+      "go_name": "diaminopimelate epimerase activity",
+      "level_2_cluster_id": "C2_219",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0003855": {
+      "go_id": "GO:0003855",
+      "go_name": "3-dehydroquinate dehydratase activity",
+      "level_2_cluster_id": "C2_099",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0008175": {
+      "go_id": "GO:0008175",
+      "go_name": "tRNA methyltransferase activity",
+      "level_2_cluster_id": "C2_207",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0003910": {
+      "go_id": "GO:0003910",
+      "go_name": "DNA ligase (ATP) activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0003883": {
+      "go_id": "GO:0003883",
+      "go_name": "CTP synthase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0000049": {
+      "go_id": "GO:0000049",
+      "go_name": "tRNA binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0004359": {
+      "go_id": "GO:0004359",
+      "go_name": "glutaminase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0016840": {
+      "go_id": "GO:0016840",
+      "go_name": "carbon-nitrogen lyase activity",
+      "level_2_cluster_id": "C2_092",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004590": {
+      "go_id": "GO:0004590",
+      "go_name": "orotidine-5'-phosphate decarboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004635": {
+      "go_id": "GO:0004635",
+      "go_name": "phosphoribosyl-AMP cyclohydrolase activity",
+      "level_2_cluster_id": "C2_112",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0004829": {
+      "go_id": "GO:0004829",
+      "go_name": "threonine-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0004488": {
+      "go_id": "GO:0004488",
+      "go_name": "methylenetetrahydrofolate dehydrogenase (NADP+) activity",
+      "level_2_cluster_id": "C2_138",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0030983": {
+      "go_id": "GO:0030983",
+      "go_name": "mismatched DNA binding",
+      "level_2_cluster_id": "C2_021",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0004764": {
+      "go_id": "GO:0004764",
+      "go_name": "shikimate 3-dehydrogenase (NADP+) activity",
+      "level_2_cluster_id": "C2_012",
+      "level_1_cluster_id": "C1_05"
+    },
+    "GO:0004640": {
+      "go_id": "GO:0004640",
+      "go_name": "phosphoribosylanthranilate isomerase activity",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0046961": {
+      "go_id": "GO:0046961",
+      "go_name": "proton-transporting ATPase activity, rotational mechanism",
+      "level_2_cluster_id": "C2_200",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0050380": {
+      "go_id": "GO:0050380",
+      "go_name": "undecaprenyl-diphosphatase activity",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0004518": {
+      "go_id": "GO:0004518",
+      "go_name": "nuclease activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0016830": {
+      "go_id": "GO:0016830",
+      "go_name": "carbon-carbon lyase activity",
+      "level_2_cluster_id": "C2_216",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0030170": {
+      "go_id": "GO:0030170",
+      "go_name": "pyridoxal phosphate binding",
+      "level_2_cluster_id": "C2_211",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0003937": {
+      "go_id": "GO:0003937",
+      "go_name": "IMP cyclohydrolase activity",
+      "level_2_cluster_id": "C2_112",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0043022": {
+      "go_id": "GO:0043022",
+      "go_name": "ribosome binding",
+      "level_2_cluster_id": "C2_068",
+      "level_1_cluster_id": "C1_23"
+    },
+    "GO:0008097": {
+      "go_id": "GO:0008097",
+      "go_name": "5S rRNA binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0000976": {
+      "go_id": "GO:0000976",
+      "go_name": "transcription cis-regulatory region binding",
+      "level_2_cluster_id": "C2_049",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0000062": {
+      "go_id": "GO:0000062",
+      "go_name": "fatty-acyl-CoA binding",
+      "level_2_cluster_id": "C2_007",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004843": {
+      "go_id": "GO:0004843",
+      "go_name": "cysteine-type deubiquitinase activity",
+      "level_2_cluster_id": "C2_176",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0015165": {
+      "go_id": "GO:0015165",
+      "go_name": "pyrimidine nucleotide-sugar transmembrane transporter activity",
+      "level_2_cluster_id": "C2_036",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0016301": {
+      "go_id": "GO:0016301",
+      "go_name": "kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004143": {
+      "go_id": "GO:0004143",
+      "go_name": "ATP-dependent diacylglycerol kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0070567": {
+      "go_id": "GO:0070567",
+      "go_name": "cytidylyltransferase activity",
+      "level_2_cluster_id": "C2_037",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004190": {
+      "go_id": "GO:0004190",
+      "go_name": "aspartic-type endopeptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0004592": {
+      "go_id": "GO:0004592",
+      "go_name": "pantoate-beta-alanine ligase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0016151": {
+      "go_id": "GO:0016151",
+      "go_name": "nickel cation binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004045": {
+      "go_id": "GO:0004045",
+      "go_name": "peptidyl-tRNA hydrolase activity",
+      "level_2_cluster_id": "C2_005",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0003911": {
+      "go_id": "GO:0003911",
+      "go_name": "DNA ligase (NAD+) activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0004833": {
+      "go_id": "GO:0004833",
+      "go_name": "L-tryptophan 2,3-dioxygenase activity",
+      "level_2_cluster_id": "C2_038",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0035596": {
+      "go_id": "GO:0035596",
+      "go_name": "methylthiotransferase activity",
+      "level_2_cluster_id": "C2_132",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0051539": {
+      "go_id": "GO:0051539",
+      "go_name": "4 iron, 4 sulfur cluster binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004424": {
+      "go_id": "GO:0004424",
+      "go_name": "imidazoleglycerol-phosphate dehydratase activity",
+      "level_2_cluster_id": "C2_099",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0016758": {
+      "go_id": "GO:0016758",
+      "go_name": "hexosyltransferase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0016881": {
+      "go_id": "GO:0016881",
+      "go_name": "acid-amino acid ligase activity",
+      "level_2_cluster_id": "C2_146",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0003864": {
+      "go_id": "GO:0003864",
+      "go_name": "3-methyl-2-oxobutanoate hydroxymethyltransferase activity",
+      "level_2_cluster_id": "C2_103",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0003879": {
+      "go_id": "GO:0003879",
+      "go_name": "ATP phosphoribosyltransferase activity",
+      "level_2_cluster_id": "C2_010",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004425": {
+      "go_id": "GO:0004425",
+      "go_name": "indole-3-glycerol-phosphate synthase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0009381": {
+      "go_id": "GO:0009381",
+      "go_name": "excinuclease ABC activity",
+      "level_2_cluster_id": "C2_002",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0016627": {
+      "go_id": "GO:0016627",
+      "go_name": "oxidoreductase activity, acting on the CH-CH group of donors",
+      "level_2_cluster_id": "C2_009",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0002161": {
+      "go_id": "GO:0002161",
+      "go_name": "aminoacyl-tRNA deacylase activity",
+      "level_2_cluster_id": "C2_005",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0016743": {
+      "go_id": "GO:0016743",
+      "go_name": "carboxyl- or carbamoyltransferase activity",
+      "level_2_cluster_id": "C2_075",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016597": {
+      "go_id": "GO:0016597",
+      "go_name": "amino acid binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0009378": {
+      "go_id": "GO:0009378",
+      "go_name": "four-way junction helicase activity",
+      "level_2_cluster_id": "C2_078",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0004520": {
+      "go_id": "GO:0004520",
+      "go_name": "DNA endonuclease activity",
+      "level_2_cluster_id": "C2_002",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0008113": {
+      "go_id": "GO:0008113",
+      "go_name": "peptide-methionine (S)-S-oxide reductase activity",
+      "level_2_cluster_id": "C2_148",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0004455": {
+      "go_id": "GO:0004455",
+      "go_name": "ketol-acid reductoisomerase activity",
+      "level_2_cluster_id": "C2_012",
+      "level_1_cluster_id": "C1_05"
+    },
+    "GO:0004853": {
+      "go_id": "GO:0004853",
+      "go_name": "uroporphyrinogen decarboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0044183": {
+      "go_id": "GO:0044183",
+      "go_name": "protein folding chaperone",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004357": {
+      "go_id": "GO:0004357",
+      "go_name": "glutamate-cysteine ligase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0008897": {
+      "go_id": "GO:0008897",
+      "go_name": "holo-[acyl-carrier-protein] synthase activity",
+      "level_2_cluster_id": "C2_076",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0030976": {
+      "go_id": "GO:0030976",
+      "go_name": "thiamine pyrophosphate binding",
+      "level_2_cluster_id": "C2_007",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008176": {
+      "go_id": "GO:0008176",
+      "go_name": "tRNA (guanine(46)-N7)-methyltransferase activity",
+      "level_2_cluster_id": "C2_208",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0004068": {
+      "go_id": "GO:0004068",
+      "go_name": "aspartate 1-decarboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004526": {
+      "go_id": "GO:0004526",
+      "go_name": "ribonuclease P activity",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0008990": {
+      "go_id": "GO:0008990",
+      "go_name": "rRNA (guanine-N2-)-methyltransferase activity",
+      "level_2_cluster_id": "C2_020",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0008134": {
+      "go_id": "GO:0008134",
+      "go_name": "transcription factor binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0070403": {
+      "go_id": "GO:0070403",
+      "go_name": "NAD+ binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0019104": {
+      "go_id": "GO:0019104",
+      "go_name": "DNA N-glycosylase activity",
+      "level_2_cluster_id": "C2_041",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0008813": {
+      "go_id": "GO:0008813",
+      "go_name": "chorismate lyase activity",
+      "level_2_cluster_id": "C2_130",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0008173": {
+      "go_id": "GO:0008173",
+      "go_name": "RNA methyltransferase activity",
+      "level_2_cluster_id": "C2_207",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0003725": {
+      "go_id": "GO:0003725",
+      "go_name": "double-stranded RNA binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0051499": {
+      "go_id": "GO:0051499",
+      "go_name": "D-aminoacyl-tRNA deacylase activity",
+      "level_2_cluster_id": "C2_005",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0097367": {
+      "go_id": "GO:0097367",
+      "go_name": "carbohydrate derivative binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004540": {
+      "go_id": "GO:0004540",
+      "go_name": "RNA nuclease activity",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0034618": {
+      "go_id": "GO:0034618",
+      "go_name": "arginine binding",
+      "level_2_cluster_id": "C2_070",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0043768": {
+      "go_id": "GO:0043768",
+      "go_name": "S-ribosylhomocysteine lyase activity",
+      "level_2_cluster_id": "C2_134",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0003852": {
+      "go_id": "GO:0003852",
+      "go_name": "2-isopropylmalate synthase activity",
+      "level_2_cluster_id": "C2_097",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0004523": {
+      "go_id": "GO:0004523",
+      "go_name": "RNA-DNA hybrid ribonuclease activity",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0004470": {
+      "go_id": "GO:0004470",
+      "go_name": "malic enzyme activity",
+      "level_2_cluster_id": "C2_149",
+      "level_1_cluster_id": "C1_01"
+    },
+    "GO:0043546": {
+      "go_id": "GO:0043546",
+      "go_name": "molybdopterin cofactor binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004810": {
+      "go_id": "GO:0004810",
+      "go_name": "CCA tRNA nucleotidyltransferase activity",
+      "level_2_cluster_id": "C2_023",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0036431": {
+      "go_id": "GO:0036431",
+      "go_name": "dCMP kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004057": {
+      "go_id": "GO:0004057",
+      "go_name": "arginyl-tRNA--protein transferase activity",
+      "level_2_cluster_id": "C2_005",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0008914": {
+      "go_id": "GO:0008914",
+      "go_name": "leucyl-tRNA--protein transferase activity",
+      "level_2_cluster_id": "C2_005",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0016645": {
+      "go_id": "GO:0016645",
+      "go_name": "oxidoreductase activity, acting on the CH-NH group of donors",
+      "level_2_cluster_id": "C2_142",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0003922": {
+      "go_id": "GO:0003922",
+      "go_name": "GMP synthase (glutamine-hydrolyzing) activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0008829": {
+      "go_id": "GO:0008829",
+      "go_name": "dCTP deaminase activity",
+      "level_2_cluster_id": "C2_003",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0048029": {
+      "go_id": "GO:0048029",
+      "go_name": "monosaccharide binding",
+      "level_2_cluster_id": "C2_203",
+      "level_1_cluster_id": "C1_20"
+    },
+    "GO:0015385": {
+      "go_id": "GO:0015385",
+      "go_name": "sodium:proton antiporter activity",
+      "level_2_cluster_id": "C2_192",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004017": {
+      "go_id": "GO:0004017",
+      "go_name": "AMP kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0009982": {
+      "go_id": "GO:0009982",
+      "go_name": "pseudouridine synthase activity",
+      "level_2_cluster_id": "C2_029",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0004834": {
+      "go_id": "GO:0004834",
+      "go_name": "tryptophan synthase activity",
+      "level_2_cluster_id": "C2_125",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0008324": {
+      "go_id": "GO:0008324",
+      "go_name": "monoatomic cation transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0070006": {
+      "go_id": "GO:0070006",
+      "go_name": "metalloaminopeptidase activity",
+      "level_2_cluster_id": "C2_143",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0008649": {
+      "go_id": "GO:0008649",
+      "go_name": "rRNA methyltransferase activity",
+      "level_2_cluster_id": "C2_020",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0004176": {
+      "go_id": "GO:0004176",
+      "go_name": "ATP-dependent peptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0008839": {
+      "go_id": "GO:0008839",
+      "go_name": "4-hydroxy-tetrahydrodipicolinate reductase activity",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0004609": {
+      "go_id": "GO:0004609",
+      "go_name": "phosphatidylserine decarboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004525": {
+      "go_id": "GO:0004525",
+      "go_name": "ribonuclease III activity",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0008855": {
+      "go_id": "GO:0008855",
+      "go_name": "exodeoxyribonuclease VII activity",
+      "level_2_cluster_id": "C2_166",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0003934": {
+      "go_id": "GO:0003934",
+      "go_name": "GTP cyclohydrolase I activity",
+      "level_2_cluster_id": "C2_112",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0033856": {
+      "go_id": "GO:0033856",
+      "go_name": "pyridoxine 5'-phosphate synthase activity",
+      "level_2_cluster_id": "C2_075",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004478": {
+      "go_id": "GO:0004478",
+      "go_name": "methionine adenosyltransferase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004619": {
+      "go_id": "GO:0004619",
+      "go_name": "phosphoglycerate mutase activity",
+      "level_2_cluster_id": "C2_029",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0030145": {
+      "go_id": "GO:0030145",
+      "go_name": "manganese ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008939": {
+      "go_id": "GO:0008939",
+      "go_name": "nicotinate-nucleotide-dimethylbenzimidazole phosphoribosyltransferase activity",
+      "level_2_cluster_id": "C2_010",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0047429": {
+      "go_id": "GO:0047429",
+      "go_name": "nucleoside triphosphate diphosphatase activity",
+      "level_2_cluster_id": "C2_141",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0008685": {
+      "go_id": "GO:0008685",
+      "go_name": "2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase activity",
+      "level_2_cluster_id": "C2_127",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0008818": {
+      "go_id": "GO:0008818",
+      "go_name": "cobalamin 5'-phosphate synthase activity",
+      "level_2_cluster_id": "C2_076",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0051073": {
+      "go_id": "GO:0051073",
+      "go_name": "adenosylcobinamide-GDP ribazoletransferase activity",
+      "level_2_cluster_id": "C2_076",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004417": {
+      "go_id": "GO:0004417",
+      "go_name": "hydroxyethylthiazole kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004418": {
+      "go_id": "GO:0004418",
+      "go_name": "hydroxymethylbilane synthase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008146": {
+      "go_id": "GO:0008146",
+      "go_name": "sulfotransferase activity",
+      "level_2_cluster_id": "C2_053",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008083": {
+      "go_id": "GO:0008083",
+      "go_name": "growth factor activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0016409": {
+      "go_id": "GO:0016409",
+      "go_name": "palmitoyltransferase activity",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0004315": {
+      "go_id": "GO:0004315",
+      "go_name": "3-oxoacyl-[acyl-carrier-protein] synthase activity",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0022857": {
+      "go_id": "GO:0022857",
+      "go_name": "transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004807": {
+      "go_id": "GO:0004807",
+      "go_name": "triose-phosphate isomerase activity",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0000155": {
+      "go_id": "GO:0000155",
+      "go_name": "phosphorelay sensor kinase activity",
+      "level_2_cluster_id": "C2_016",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0050568": {
+      "go_id": "GO:0050568",
+      "go_name": "protein-glutamine glutaminase activity",
+      "level_2_cluster_id": "C2_210",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0050532": {
+      "go_id": "GO:0050532",
+      "go_name": "2-phosphosulfolactate phosphatase activity",
+      "level_2_cluster_id": "C2_011",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0008686": {
+      "go_id": "GO:0008686",
+      "go_name": "3,4-dihydroxy-2-butanone-4-phosphate synthase activity",
+      "level_2_cluster_id": "C2_216",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0003887": {
+      "go_id": "GO:0003887",
+      "go_name": "DNA-directed DNA polymerase activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0008408": {
+      "go_id": "GO:0008408",
+      "go_name": "3'-5' exonuclease activity",
+      "level_2_cluster_id": "C2_165",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0004345": {
+      "go_id": "GO:0004345",
+      "go_name": "glucose-6-phosphate dehydrogenase activity",
+      "level_2_cluster_id": "C2_012",
+      "level_1_cluster_id": "C1_05"
+    },
+    "GO:0003916": {
+      "go_id": "GO:0003916",
+      "go_name": "DNA topoisomerase activity",
+      "level_2_cluster_id": "C2_078",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0008762": {
+      "go_id": "GO:0008762",
+      "go_name": "UDP-N-acetylmuramate dehydrogenase activity",
+      "level_2_cluster_id": "C2_027",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0008830": {
+      "go_id": "GO:0008830",
+      "go_name": "dTDP-4-dehydrorhamnose 3,5-epimerase activity",
+      "level_2_cluster_id": "C2_118",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0016987": {
+      "go_id": "GO:0016987",
+      "go_name": "sigma factor activity",
+      "level_2_cluster_id": "C2_050",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0004106": {
+      "go_id": "GO:0004106",
+      "go_name": "chorismate mutase activity",
+      "level_2_cluster_id": "C2_029",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0043814": {
+      "go_id": "GO:0043814",
+      "go_name": "phospholactate guanylyltransferase activity",
+      "level_2_cluster_id": "C2_119",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008924": {
+      "go_id": "GO:0008924",
+      "go_name": "L-malate dehydrogenase (quinone) activity",
+      "level_2_cluster_id": "C2_149",
+      "level_1_cluster_id": "C1_01"
+    },
+    "GO:0004371": {
+      "go_id": "GO:0004371",
+      "go_name": "glycerone kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008774": {
+      "go_id": "GO:0008774",
+      "go_name": "acetaldehyde dehydrogenase (acetylating) activity",
+      "level_2_cluster_id": "C2_094",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0016833": {
+      "go_id": "GO:0016833",
+      "go_name": "oxo-acid-lyase activity",
+      "level_2_cluster_id": "C2_130",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0003849": {
+      "go_id": "GO:0003849",
+      "go_name": "3-deoxy-7-phosphoheptulonate synthase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004356": {
+      "go_id": "GO:0004356",
+      "go_name": "glutamine synthetase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0043169": {
+      "go_id": "GO:0043169",
+      "go_name": "cation binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016624": {
+      "go_id": "GO:0016624",
+      "go_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, disulfide as acceptor",
+      "level_2_cluster_id": "C2_102",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0004089": {
+      "go_id": "GO:0004089",
+      "go_name": "carbonate dehydratase activity",
+      "level_2_cluster_id": "C2_099",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0004784": {
+      "go_id": "GO:0004784",
+      "go_name": "superoxide dismutase activity",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0016773": {
+      "go_id": "GO:0016773",
+      "go_name": "phosphotransferase activity, alcohol group as acceptor",
+      "level_2_cluster_id": "C2_223",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016836": {
+      "go_id": "GO:0016836",
+      "go_name": "hydro-lyase activity",
+      "level_2_cluster_id": "C2_125",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0004813": {
+      "go_id": "GO:0004813",
+      "go_name": "alanine-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0004826": {
+      "go_id": "GO:0004826",
+      "go_name": "phenylalanine-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0003871": {
+      "go_id": "GO:0003871",
+      "go_name": "5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity",
+      "level_2_cluster_id": "C2_105",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0008810": {
+      "go_id": "GO:0008810",
+      "go_name": "cellulase activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0004565": {
+      "go_id": "GO:0004565",
+      "go_name": "beta-galactosidase activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0008745": {
+      "go_id": "GO:0008745",
+      "go_name": "N-acetylmuramoyl-L-alanine amidase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0050385": {
+      "go_id": "GO:0050385",
+      "go_name": "ureidoglycolate lyase activity",
+      "level_2_cluster_id": "C2_092",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0008791": {
+      "go_id": "GO:0008791",
+      "go_name": "L-arginine N-succinyltransferase activity",
+      "level_2_cluster_id": "C2_097",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0015099": {
+      "go_id": "GO:0015099",
+      "go_name": "nickel cation transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0050498": {
+      "go_id": "GO:0050498",
+      "go_name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, with 2-oxoglutarate as one donor, and the other dehydrogenated",
+      "level_2_cluster_id": "C2_168",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004519": {
+      "go_id": "GO:0004519",
+      "go_name": "endonuclease activity",
+      "level_2_cluster_id": "C2_002",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0043772": {
+      "go_id": "GO:0043772",
+      "go_name": "acyl-phosphate glycerol-3-phosphate acyltransferase activity",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0047465": {
+      "go_id": "GO:0047465",
+      "go_name": "N-acylglucosamine-6-phosphate 2-epimerase activity",
+      "level_2_cluster_id": "C2_118",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0016857": {
+      "go_id": "GO:0016857",
+      "go_name": "racemase and epimerase activity, acting on carbohydrates and derivatives",
+      "level_2_cluster_id": "C2_118",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0015153": {
+      "go_id": "GO:0015153",
+      "go_name": "rhamnose transmembrane transporter activity",
+      "level_2_cluster_id": "C2_198",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004601": {
+      "go_id": "GO:0004601",
+      "go_name": "peroxidase activity",
+      "level_2_cluster_id": "C2_133",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0016984": {
+      "go_id": "GO:0016984",
+      "go_name": "ribulose-bisphosphate carboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004730": {
+      "go_id": "GO:0004730",
+      "go_name": "pseudouridylate synthase activity",
+      "level_2_cluster_id": "C2_125",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0030527": {
+      "go_id": "GO:0030527",
+      "go_name": "structural constituent of chromatin",
+      "level_2_cluster_id": "C2_080",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0003905": {
+      "go_id": "GO:0003905",
+      "go_name": "alkylbase DNA N-glycosylase activity",
+      "level_2_cluster_id": "C2_041",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0008073": {
+      "go_id": "GO:0008073",
+      "go_name": "ornithine decarboxylase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0030570": {
+      "go_id": "GO:0030570",
+      "go_name": "pectate lyase activity",
+      "level_2_cluster_id": "C2_222",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0008531": {
+      "go_id": "GO:0008531",
+      "go_name": "riboflavin kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0030429": {
+      "go_id": "GO:0030429",
+      "go_name": "kynureninase activity",
+      "level_2_cluster_id": "C2_126",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0000334": {
+      "go_id": "GO:0000334",
+      "go_name": "3-hydroxyanthranilate 3,4-dioxygenase activity",
+      "level_2_cluster_id": "C2_038",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0016891": {
+      "go_id": "GO:0016891",
+      "go_name": "RNA endonuclease activity producing 5'-phosphomonoesters, hydrolytic mechanism",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0046559": {
+      "go_id": "GO:0046559",
+      "go_name": "alpha-glucuronidase activity",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0046556": {
+      "go_id": "GO:0046556",
+      "go_name": "alpha-L-arabinofuranosidase activity",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0016818": {
+      "go_id": "GO:0016818",
+      "go_name": "hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0008233": {
+      "go_id": "GO:0008233",
+      "go_name": "peptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0008237": {
+      "go_id": "GO:0008237",
+      "go_name": "metallopeptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0004181": {
+      "go_id": "GO:0004181",
+      "go_name": "metallocarboxypeptidase activity",
+      "level_2_cluster_id": "C2_143",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0015926": {
+      "go_id": "GO:0015926",
+      "go_name": "glucosidase activity",
+      "level_2_cluster_id": "C2_147",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0004650": {
+      "go_id": "GO:0004650",
+      "go_name": "polygalacturonase activity",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0003774": {
+      "go_id": "GO:0003774",
+      "go_name": "cytoskeletal motor activity",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0042301": {
+      "go_id": "GO:0042301",
+      "go_name": "phosphate ion binding",
+      "level_2_cluster_id": "C2_007",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008961": {
+      "go_id": "GO:0008961",
+      "go_name": "phosphatidylglycerol-prolipoprotein diacylglyceryl transferase activity",
+      "level_2_cluster_id": "C2_087",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0016879": {
+      "go_id": "GO:0016879",
+      "go_name": "ligase activity, forming carbon-nitrogen bonds",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0035438": {
+      "go_id": "GO:0035438",
+      "go_name": "cyclic-di-GMP binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004832": {
+      "go_id": "GO:0004832",
+      "go_name": "valine-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0042910": {
+      "go_id": "GO:0042910",
+      "go_name": "xenobiotic transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0016641": {
+      "go_id": "GO:0016641",
+      "go_name": "oxidoreductase activity, acting on the CH-NH2 group of donors, oxygen as acceptor",
+      "level_2_cluster_id": "C2_064",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0033925": {
+      "go_id": "GO:0033925",
+      "go_name": "mannosyl-glycoprotein endo-beta-N-acetylglucosaminidase activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0005337": {
+      "go_id": "GO:0005337",
+      "go_name": "nucleoside transmembrane transporter activity",
+      "level_2_cluster_id": "C2_197",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0008318": {
+      "go_id": "GO:0008318",
+      "go_name": "protein prenyltransferase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0010308": {
+      "go_id": "GO:0010308",
+      "go_name": "acireductone dioxygenase (Ni2+-requiring) activity",
+      "level_2_cluster_id": "C2_038",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0010309": {
+      "go_id": "GO:0010309",
+      "go_name": "acireductone dioxygenase [iron(II)-requiring] activity",
+      "level_2_cluster_id": "C2_038",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0005096": {
+      "go_id": "GO:0005096",
+      "go_name": "GTPase activator activity",
+      "level_2_cluster_id": "C2_062",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0042279": {
+      "go_id": "GO:0042279",
+      "go_name": "nitrite reductase (cytochrome, ammonia-forming) activity",
+      "level_2_cluster_id": "C2_111",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0000156": {
+      "go_id": "GO:0000156",
+      "go_name": "phosphorelay response regulator activity",
+      "level_2_cluster_id": "C2_017",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0008984": {
+      "go_id": "GO:0008984",
+      "go_name": "protein-glutamate methylesterase activity",
+      "level_2_cluster_id": "C2_095",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0033743": {
+      "go_id": "GO:0033743",
+      "go_name": "peptide-methionine (R)-S-oxide reductase activity",
+      "level_2_cluster_id": "C2_148",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0004014": {
+      "go_id": "GO:0004014",
+      "go_name": "adenosylmethionine decarboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0051879": {
+      "go_id": "GO:0051879",
+      "go_name": "Hsp90 protein binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0042500": {
+      "go_id": "GO:0042500",
+      "go_name": "aspartic endopeptidase activity, intramembrane cleaving",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0004725": {
+      "go_id": "GO:0004725",
+      "go_name": "protein tyrosine phosphatase activity",
+      "level_2_cluster_id": "C2_170",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0120013": {
+      "go_id": "GO:0120013",
+      "go_name": "lipid transfer activity",
+      "level_2_cluster_id": "C2_195",
+      "level_1_cluster_id": "C1_28"
+    },
+    "GO:0003690": {
+      "go_id": "GO:0003690",
+      "go_name": "double-stranded DNA binding",
+      "level_2_cluster_id": "C2_021",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0043743": {
+      "go_id": "GO:0043743",
+      "go_name": "LPPG:FO 2-phospho-L-lactate transferase activity",
+      "level_2_cluster_id": "C2_223",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004827": {
+      "go_id": "GO:0004827",
+      "go_name": "proline-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0005544": {
+      "go_id": "GO:0005544",
+      "go_name": "calcium-dependent phospholipid binding",
+      "level_2_cluster_id": "C2_054",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016209": {
+      "go_id": "GO:0016209",
+      "go_name": "antioxidant activity",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0051920": {
+      "go_id": "GO:0051920",
+      "go_name": "peroxiredoxin activity",
+      "level_2_cluster_id": "C2_133",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004751": {
+      "go_id": "GO:0004751",
+      "go_name": "ribose-5-phosphate isomerase activity",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0004674": {
+      "go_id": "GO:0004674",
+      "go_name": "protein serine/threonine kinase activity",
+      "level_2_cluster_id": "C2_016",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0045145": {
+      "go_id": "GO:0045145",
+      "go_name": "single-stranded DNA 5'-3' DNA exonuclease activity",
+      "level_2_cluster_id": "C2_166",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0004867": {
+      "go_id": "GO:0004867",
+      "go_name": "serine-type endopeptidase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0008373": {
+      "go_id": "GO:0008373",
+      "go_name": "sialyltransferase activity",
+      "level_2_cluster_id": "C2_061",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0042393": {
+      "go_id": "GO:0042393",
+      "go_name": "histone binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0045300": {
+      "go_id": "GO:0045300",
+      "go_name": "stearoyl-[ACP] desaturase activity",
+      "level_2_cluster_id": "C2_028",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004427": {
+      "go_id": "GO:0004427",
+      "go_name": "inorganic diphosphate phosphatase activity",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0008289": {
+      "go_id": "GO:0008289",
+      "go_name": "lipid binding",
+      "level_2_cluster_id": "C2_054",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016538": {
+      "go_id": "GO:0016538",
+      "go_name": "cyclin-dependent protein serine/threonine kinase regulator activity",
+      "level_2_cluster_id": "C2_215",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0019139": {
+      "go_id": "GO:0019139",
+      "go_name": "cytokinin dehydrogenase activity",
+      "level_2_cluster_id": "C2_142",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004671": {
+      "go_id": "GO:0004671",
+      "go_name": "protein C-terminal S-isoprenylcysteine carboxyl O-methyltransferase activity",
+      "level_2_cluster_id": "C2_026",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0016760": {
+      "go_id": "GO:0016760",
+      "go_name": "cellulose synthase (UDP-forming) activity",
+      "level_2_cluster_id": "C2_088",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0050307": {
+      "go_id": "GO:0050307",
+      "go_name": "sucrose-phosphate phosphatase activity",
+      "level_2_cluster_id": "C2_011",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0008239": {
+      "go_id": "GO:0008239",
+      "go_name": "dipeptidyl-peptidase activity",
+      "level_2_cluster_id": "C2_143",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0004668": {
+      "go_id": "GO:0004668",
+      "go_name": "protein-arginine deiminase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0003697": {
+      "go_id": "GO:0003697",
+      "go_name": "single-stranded DNA binding",
+      "level_2_cluster_id": "C2_024",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0030515": {
+      "go_id": "GO:0030515",
+      "go_name": "snoRNA binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0017111": {
+      "go_id": "GO:0017111",
+      "go_name": "ribonucleoside triphosphate phosphatase activity",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0004435": {
+      "go_id": "GO:0004435",
+      "go_name": "phosphatidylinositol-4,5-bisphosphate phospholipase C activity",
+      "level_2_cluster_id": "C2_155",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0015081": {
+      "go_id": "GO:0015081",
+      "go_name": "sodium ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004071": {
+      "go_id": "GO:0004071",
+      "go_name": "aspartate-ammonia ligase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0016655": {
+      "go_id": "GO:0016655",
+      "go_name": "oxidoreductase activity, acting on NAD(P)H, quinone or similar compound as acceptor",
+      "level_2_cluster_id": "C2_115",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0008124": {
+      "go_id": "GO:0008124",
+      "go_name": "4-alpha-hydroxytetrahydrobiopterin dehydratase activity",
+      "level_2_cluster_id": "C2_099",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0003989": {
+      "go_id": "GO:0003989",
+      "go_name": "acetyl-CoA carboxylase activity",
+      "level_2_cluster_id": "C2_123",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0016636": {
+      "go_id": "GO:0016636",
+      "go_name": "oxidoreductase activity, acting on the CH-CH group of donors, iron-sulfur protein as acceptor",
+      "level_2_cluster_id": "C2_009",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0050897": {
+      "go_id": "GO:0050897",
+      "go_name": "cobalt ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0005267": {
+      "go_id": "GO:0005267",
+      "go_name": "potassium channel activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0042802": {
+      "go_id": "GO:0042802",
+      "go_name": "identical protein binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0042030": {
+      "go_id": "GO:0042030",
+      "go_name": "ATPase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0004620": {
+      "go_id": "GO:0004620",
+      "go_name": "glycerophospholipase activity",
+      "level_2_cluster_id": "C2_155",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0042054": {
+      "go_id": "GO:0042054",
+      "go_name": "histone methyltransferase activity",
+      "level_2_cluster_id": "C2_231",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0016772": {
+      "go_id": "GO:0016772",
+      "go_name": "transferase activity, transferring phosphorus-containing groups",
+      "level_2_cluster_id": "C2_223",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0003779": {
+      "go_id": "GO:0003779",
+      "go_name": "actin binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0004037": {
+      "go_id": "GO:0004037",
+      "go_name": "allantoicase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0004521": {
+      "go_id": "GO:0004521",
+      "go_name": "RNA endonuclease activity",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0003908": {
+      "go_id": "GO:0003908",
+      "go_name": "methylated-DNA-[protein]-cysteine S-methyltransferase activity",
+      "level_2_cluster_id": "C2_105",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0005253": {
+      "go_id": "GO:0005253",
+      "go_name": "monoatomic anion channel activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0004332": {
+      "go_id": "GO:0004332",
+      "go_name": "fructose-bisphosphate aldolase activity",
+      "level_2_cluster_id": "C2_137",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0003993": {
+      "go_id": "GO:0003993",
+      "go_name": "acid phosphatase activity",
+      "level_2_cluster_id": "C2_011",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0031369": {
+      "go_id": "GO:0031369",
+      "go_name": "translation initiation factor binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0103117": {
+      "go_id": "GO:0103117",
+      "go_name": "UDP-3-O-acyl-N-acetylglucosamine deacetylase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0046933": {
+      "go_id": "GO:0046933",
+      "go_name": "proton-transporting ATP synthase activity, rotational mechanism",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0140662": {
+      "go_id": "GO:0140662",
+      "go_name": "ATP-dependent protein folding chaperone",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016756": {
+      "go_id": "GO:0016756",
+      "go_name": "glutathione gamma-glutamylcysteinyltransferase activity",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0019799": {
+      "go_id": "GO:0019799",
+      "go_name": "tubulin N-acetyltransferase activity",
+      "level_2_cluster_id": "C2_167",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0008556": {
+      "go_id": "GO:0008556",
+      "go_name": "P-type potassium transmembrane transporter activity",
+      "level_2_cluster_id": "C2_200",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0015035": {
+      "go_id": "GO:0015035",
+      "go_name": "protein-disulfide reductase activity",
+      "level_2_cluster_id": "C2_148",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0016972": {
+      "go_id": "GO:0016972",
+      "go_name": "thiol oxidase activity",
+      "level_2_cluster_id": "C2_139",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0004334": {
+      "go_id": "GO:0004334",
+      "go_name": "fumarylacetoacetase activity",
+      "level_2_cluster_id": "C2_126",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0015252": {
+      "go_id": "GO:0015252",
+      "go_name": "proton channel activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0008715": {
+      "go_id": "GO:0008715",
+      "go_name": "CDP-diacylglycerol diphosphatase activity",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0009015": {
+      "go_id": "GO:0009015",
+      "go_name": "N-succinylarginine dihydrolase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0031267": {
+      "go_id": "GO:0031267",
+      "go_name": "small GTPase binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0004129": {
+      "go_id": "GO:0004129",
+      "go_name": "cytochrome-c oxidase activity",
+      "level_2_cluster_id": "C2_135",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0031419": {
+      "go_id": "GO:0031419",
+      "go_name": "cobalamin binding",
+      "level_2_cluster_id": "C2_211",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0005125": {
+      "go_id": "GO:0005125",
+      "go_name": "cytokine activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0004859": {
+      "go_id": "GO:0004859",
+      "go_name": "phospholipase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0033735": {
+      "go_id": "GO:0033735",
+      "go_name": "L-aspartate dehydrogenase [NAD(P)+] activity",
+      "level_2_cluster_id": "C2_033",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0038023": {
+      "go_id": "GO:0038023",
+      "go_name": "signaling receptor activity",
+      "level_2_cluster_id": "C2_017",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0016715": {
+      "go_id": "GO:0016715",
+      "go_name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced ascorbate as one donor, and incorporation of one atom of oxygen",
+      "level_2_cluster_id": "C2_232",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0005157": {
+      "go_id": "GO:0005157",
+      "go_name": "macrophage colony-stimulating factor receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0016671": {
+      "go_id": "GO:0016671",
+      "go_name": "oxidoreductase activity, acting on a sulfur group of donors, disulfide as acceptor",
+      "level_2_cluster_id": "C2_139",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0001671": {
+      "go_id": "GO:0001671",
+      "go_name": "ATPase activator activity",
+      "level_2_cluster_id": "C2_062",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0051087": {
+      "go_id": "GO:0051087",
+      "go_name": "protein-folding chaperone binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0016861": {
+      "go_id": "GO:0016861",
+      "go_name": "intramolecular oxidoreductase activity, interconverting aldoses and ketoses",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0008170": {
+      "go_id": "GO:0008170",
+      "go_name": "N-methyltransferase activity",
+      "level_2_cluster_id": "C2_105",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0004358": {
+      "go_id": "GO:0004358",
+      "go_name": "L-glutamate N-acetyltransferase activity, acting on acetyl-L-ornithine as donor",
+      "level_2_cluster_id": "C2_129",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0008092": {
+      "go_id": "GO:0008092",
+      "go_name": "cytoskeletal protein binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0030674": {
+      "go_id": "GO:0030674",
+      "go_name": "protein-macromolecule adaptor activity",
+      "level_2_cluster_id": "C2_183",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0019825": {
+      "go_id": "GO:0019825",
+      "go_name": "oxygen binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0046332": {
+      "go_id": "GO:0046332",
+      "go_name": "SMAD binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0050113": {
+      "go_id": "GO:0050113",
+      "go_name": "inositol oxygenase activity",
+      "level_2_cluster_id": "C2_031",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0034639": {
+      "go_id": "GO:0034639",
+      "go_name": "L-amino acid efflux transmembrane transporter activity",
+      "level_2_cluster_id": "C2_194",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0019787": {
+      "go_id": "GO:0019787",
+      "go_name": "ubiquitin-like protein transferase activity",
+      "level_2_cluster_id": "C2_086",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0008770": {
+      "go_id": "GO:0008770",
+      "go_name": "[acyl-carrier-protein] phosphodiesterase activity",
+      "level_2_cluster_id": "C2_131",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0015649": {
+      "go_id": "GO:0015649",
+      "go_name": "2-keto-3-deoxygluconate:proton symporter activity",
+      "level_2_cluster_id": "C2_191",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0008882": {
+      "go_id": "GO:0008882",
+      "go_name": "[glutamate-ammonia-ligase] adenylyltransferase activity",
+      "level_2_cluster_id": "C2_037",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0000030": {
+      "go_id": "GO:0000030",
+      "go_name": "mannosyltransferase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0005186": {
+      "go_id": "GO:0005186",
+      "go_name": "pheromone activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0004683": {
+      "go_id": "GO:0004683",
+      "go_name": "calcium/calmodulin-dependent protein kinase activity",
+      "level_2_cluster_id": "C2_016",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0005516": {
+      "go_id": "GO:0005516",
+      "go_name": "calmodulin binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0008430": {
+      "go_id": "GO:0008430",
+      "go_name": "selenium binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008705": {
+      "go_id": "GO:0008705",
+      "go_name": "methionine synthase activity",
+      "level_2_cluster_id": "C2_105",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0043758": {
+      "go_id": "GO:0043758",
+      "go_name": "acetate-CoA ligase (ADP-forming) activity",
+      "level_2_cluster_id": "C2_122",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0004061": {
+      "go_id": "GO:0004061",
+      "go_name": "arylformamidase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0009374": {
+      "go_id": "GO:0009374",
+      "go_name": "biotin binding",
+      "level_2_cluster_id": "C2_070",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008927": {
+      "go_id": "GO:0008927",
+      "go_name": "mannonate dehydratase activity",
+      "level_2_cluster_id": "C2_157",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0046914": {
+      "go_id": "GO:0046914",
+      "go_name": "transition metal ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0015232": {
+      "go_id": "GO:0015232",
+      "go_name": "heme transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004114": {
+      "go_id": "GO:0004114",
+      "go_name": "3',5'-cyclic-nucleotide phosphodiesterase activity",
+      "level_2_cluster_id": "C2_131",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0003713": {
+      "go_id": "GO:0003713",
+      "go_name": "transcription coactivator activity",
+      "level_2_cluster_id": "C2_050",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0005126": {
+      "go_id": "GO:0005126",
+      "go_name": "cytokine receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0008410": {
+      "go_id": "GO:0008410",
+      "go_name": "CoA-transferase activity",
+      "level_2_cluster_id": "C2_209",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016780": {
+      "go_id": "GO:0016780",
+      "go_name": "phosphotransferase activity, for other substituted phosphate groups",
+      "level_2_cluster_id": "C2_076",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0071771": {
+      "go_id": "GO:0071771",
+      "go_name": "aldehyde oxygenase (deformylating) activity",
+      "level_2_cluster_id": "C2_216",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0015095": {
+      "go_id": "GO:0015095",
+      "go_name": "magnesium ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0061928": {
+      "go_id": "GO:0061928",
+      "go_name": "glutathione specific gamma-glutamylcyclotransferase activity",
+      "level_2_cluster_id": "C2_092",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0033990": {
+      "go_id": "GO:0033990",
+      "go_name": "ectoine synthase activity",
+      "level_2_cluster_id": "C2_125",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0004363": {
+      "go_id": "GO:0004363",
+      "go_name": "glutathione synthase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0106362": {
+      "go_id": "GO:0106362",
+      "go_name": "protein-arginine N-acetylglucosaminyltransferase activity",
+      "level_2_cluster_id": "C2_089",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0051015": {
+      "go_id": "GO:0051015",
+      "go_name": "actin filament binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0005216": {
+      "go_id": "GO:0005216",
+      "go_name": "monoatomic ion channel activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0016851": {
+      "go_id": "GO:0016851",
+      "go_name": "magnesium chelatase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0042834": {
+      "go_id": "GO:0042834",
+      "go_name": "peptidoglycan binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0070573": {
+      "go_id": "GO:0070573",
+      "go_name": "metallodipeptidase activity",
+      "level_2_cluster_id": "C2_143",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0033897": {
+      "go_id": "GO:0033897",
+      "go_name": "ribonuclease T2 activity",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0004788": {
+      "go_id": "GO:0004788",
+      "go_name": "thiamine diphosphokinase activity",
+      "level_2_cluster_id": "C2_096",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0030975": {
+      "go_id": "GO:0030975",
+      "go_name": "thiamine binding",
+      "level_2_cluster_id": "C2_211",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004019": {
+      "go_id": "GO:0004019",
+      "go_name": "adenylosuccinate synthase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0004347": {
+      "go_id": "GO:0004347",
+      "go_name": "glucose-6-phosphate isomerase activity",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0004146": {
+      "go_id": "GO:0004146",
+      "go_name": "dihydrofolate reductase activity",
+      "level_2_cluster_id": "C2_138",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0008792": {
+      "go_id": "GO:0008792",
+      "go_name": "arginine decarboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004616": {
+      "go_id": "GO:0004616",
+      "go_name": "phosphogluconate dehydrogenase (decarboxylating) activity",
+      "level_2_cluster_id": "C2_012",
+      "level_1_cluster_id": "C1_05"
+    },
+    "GO:0003714": {
+      "go_id": "GO:0003714",
+      "go_name": "transcription corepressor activity",
+      "level_2_cluster_id": "C2_050",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0031386": {
+      "go_id": "GO:0031386",
+      "go_name": "protein tag activity",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0070628": {
+      "go_id": "GO:0070628",
+      "go_name": "proteasome binding",
+      "level_2_cluster_id": "C2_068",
+      "level_1_cluster_id": "C1_23"
+    },
+    "GO:0016791": {
+      "go_id": "GO:0016791",
+      "go_name": "phosphatase activity",
+      "level_2_cluster_id": "C2_011",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0016810": {
+      "go_id": "GO:0016810",
+      "go_name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0008982": {
+      "go_id": "GO:0008982",
+      "go_name": "protein-N(PI)-phosphohistidine-carbohydrate phosphotransferase activity",
+      "level_2_cluster_id": "C2_224",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004169": {
+      "go_id": "GO:0004169",
+      "go_name": "dolichyl-phosphate-mannose-protein mannosyltransferase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0015225": {
+      "go_id": "GO:0015225",
+      "go_name": "biotin transmembrane transporter activity",
+      "level_2_cluster_id": "C2_196",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0009916": {
+      "go_id": "GO:0009916",
+      "go_name": "alternative oxidase activity",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0000339": {
+      "go_id": "GO:0000339",
+      "go_name": "RNA cap binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0008081": {
+      "go_id": "GO:0008081",
+      "go_name": "phosphoric diester hydrolase activity",
+      "level_2_cluster_id": "C2_131",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0050043": {
+      "go_id": "GO:0050043",
+      "go_name": "lactate racemase activity",
+      "level_2_cluster_id": "C2_160",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0003950": {
+      "go_id": "GO:0003950",
+      "go_name": "NAD+ poly-ADP-ribosyltransferase activity",
+      "level_2_cluster_id": "C2_010",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0005179": {
+      "go_id": "GO:0005179",
+      "go_name": "hormone activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0030599": {
+      "go_id": "GO:0030599",
+      "go_name": "pectinesterase activity",
+      "level_2_cluster_id": "C2_095",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0004000": {
+      "go_id": "GO:0004000",
+      "go_name": "adenosine deaminase activity",
+      "level_2_cluster_id": "C2_003",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0070042": {
+      "go_id": "GO:0070042",
+      "go_name": "rRNA (uridine-N3-)-methyltransferase activity",
+      "level_2_cluster_id": "C2_020",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0033926": {
+      "go_id": "GO:0033926",
+      "go_name": "endo-alpha-N-acetylgalactosaminidase activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0008193": {
+      "go_id": "GO:0008193",
+      "go_name": "tRNA guanylyltransferase activity",
+      "level_2_cluster_id": "C2_023",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0003747": {
+      "go_id": "GO:0003747",
+      "go_name": "translation release factor activity",
+      "level_2_cluster_id": "C2_081",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0004489": {
+      "go_id": "GO:0004489",
+      "go_name": "methylenetetrahydrofolate reductase [NAD(P)H] activity",
+      "level_2_cluster_id": "C2_138",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004415": {
+      "go_id": "GO:0004415",
+      "go_name": "hyalurononglucosaminidase activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0008047": {
+      "go_id": "GO:0008047",
+      "go_name": "enzyme activator activity",
+      "level_2_cluster_id": "C2_062",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0004721": {
+      "go_id": "GO:0004721",
+      "go_name": "phosphoprotein phosphatase activity",
+      "level_2_cluster_id": "C2_170",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0009002": {
+      "go_id": "GO:0009002",
+      "go_name": "serine-type D-Ala-D-Ala carboxypeptidase activity",
+      "level_2_cluster_id": "C2_144",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0046912": {
+      "go_id": "GO:0046912",
+      "go_name": "acyltransferase activity, acyl groups converted into alkyl on transfer",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0016407": {
+      "go_id": "GO:0016407",
+      "go_name": "acetyltransferase activity",
+      "level_2_cluster_id": "C2_121",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0008703": {
+      "go_id": "GO:0008703",
+      "go_name": "5-amino-6-(5-phosphoribosylamino)uracil reductase activity",
+      "level_2_cluster_id": "C2_012",
+      "level_1_cluster_id": "C1_05"
+    },
+    "GO:0004531": {
+      "go_id": "GO:0004531",
+      "go_name": "deoxyribonuclease II activity",
+      "level_2_cluster_id": "C2_002",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0004675": {
+      "go_id": "GO:0004675",
+      "go_name": "transmembrane receptor protein serine/threonine kinase activity",
+      "level_2_cluster_id": "C2_169",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004888": {
+      "go_id": "GO:0004888",
+      "go_name": "transmembrane signaling receptor activity",
+      "level_2_cluster_id": "C2_057",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0003796": {
+      "go_id": "GO:0003796",
+      "go_name": "lysozyme activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0000009": {
+      "go_id": "GO:0000009",
+      "go_name": "alpha-1,6-mannosyltransferase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004376": {
+      "go_id": "GO:0004376",
+      "go_name": "GPI mannosyltransferase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004402": {
+      "go_id": "GO:0004402",
+      "go_name": "histone acetyltransferase activity",
+      "level_2_cluster_id": "C2_152",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0005137": {
+      "go_id": "GO:0005137",
+      "go_name": "interleukin-5 receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0008191": {
+      "go_id": "GO:0008191",
+      "go_name": "metalloendopeptidase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0005127": {
+      "go_id": "GO:0005127",
+      "go_name": "ciliary neurotrophic factor receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0004649": {
+      "go_id": "GO:0004649",
+      "go_name": "poly(ADP-ribose) glycohydrolase activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0034061": {
+      "go_id": "GO:0034061",
+      "go_name": "DNA polymerase activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0004568": {
+      "go_id": "GO:0004568",
+      "go_name": "chitinase activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0004112": {
+      "go_id": "GO:0004112",
+      "go_name": "cyclic-nucleotide phosphodiesterase activity",
+      "level_2_cluster_id": "C2_131",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0030942": {
+      "go_id": "GO:0030942",
+      "go_name": "endoplasmic reticulum signal sequence receptor activity",
+      "level_2_cluster_id": "C2_181",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0015211": {
+      "go_id": "GO:0015211",
+      "go_name": "purine nucleoside transmembrane transporter activity",
+      "level_2_cluster_id": "C2_197",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004476": {
+      "go_id": "GO:0004476",
+      "go_name": "mannose-6-phosphate isomerase activity",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0016831": {
+      "go_id": "GO:0016831",
+      "go_name": "carboxy-lyase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0015293": {
+      "go_id": "GO:0015293",
+      "go_name": "symporter activity",
+      "level_2_cluster_id": "C2_135",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0000978": {
+      "go_id": "GO:0000978",
+      "go_name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+      "level_2_cluster_id": "C2_049",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0003876": {
+      "go_id": "GO:0003876",
+      "go_name": "AMP deaminase activity",
+      "level_2_cluster_id": "C2_003",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0005540": {
+      "go_id": "GO:0005540",
+      "go_name": "hyaluronic acid binding",
+      "level_2_cluster_id": "C2_070",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0030250": {
+      "go_id": "GO:0030250",
+      "go_name": "guanylate cyclase activator activity",
+      "level_2_cluster_id": "C2_062",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0043138": {
+      "go_id": "GO:0043138",
+      "go_name": "3'-5' DNA helicase activity",
+      "level_2_cluster_id": "C2_078",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0004651": {
+      "go_id": "GO:0004651",
+      "go_name": "polynucleotide 5'-phosphatase activity",
+      "level_2_cluster_id": "C2_011",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0003964": {
+      "go_id": "GO:0003964",
+      "go_name": "RNA-directed DNA polymerase activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0043047": {
+      "go_id": "GO:0043047",
+      "go_name": "single-stranded telomeric DNA binding",
+      "level_2_cluster_id": "C2_024",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0042162": {
+      "go_id": "GO:0042162",
+      "go_name": "telomeric repeat DNA binding",
+      "level_2_cluster_id": "C2_024",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0003785": {
+      "go_id": "GO:0003785",
+      "go_name": "actin monomer binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0005164": {
+      "go_id": "GO:0005164",
+      "go_name": "tumor necrosis factor receptor binding",
+      "level_2_cluster_id": "C2_186",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0004623": {
+      "go_id": "GO:0004623",
+      "go_name": "A2-type glycerophospholipase activity",
+      "level_2_cluster_id": "C2_155",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0016286": {
+      "go_id": "GO:0016286",
+      "go_name": "small conductance calcium-activated potassium channel activity",
+      "level_2_cluster_id": "C2_179",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0015269": {
+      "go_id": "GO:0015269",
+      "go_name": "calcium-activated potassium channel activity",
+      "level_2_cluster_id": "C2_179",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0004861": {
+      "go_id": "GO:0004861",
+      "go_name": "cyclin-dependent protein serine/threonine kinase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0008455": {
+      "go_id": "GO:0008455",
+      "go_name": "alpha-1,6-mannosylglycoprotein 2-beta-N-acetylglucosaminyltransferase activity",
+      "level_2_cluster_id": "C2_089",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004517": {
+      "go_id": "GO:0004517",
+      "go_name": "nitric-oxide synthase activity",
+      "level_2_cluster_id": "C2_161",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0008200": {
+      "go_id": "GO:0008200",
+      "go_name": "ion channel inhibitor activity",
+      "level_2_cluster_id": "C2_190",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0019871": {
+      "go_id": "GO:0019871",
+      "go_name": "sodium channel inhibitor activity",
+      "level_2_cluster_id": "C2_190",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0016161": {
+      "go_id": "GO:0016161",
+      "go_name": "beta-amylase activity",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0004673": {
+      "go_id": "GO:0004673",
+      "go_name": "protein histidine kinase activity",
+      "level_2_cluster_id": "C2_016",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0003848": {
+      "go_id": "GO:0003848",
+      "go_name": "2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase activity",
+      "level_2_cluster_id": "C2_096",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016903": {
+      "go_id": "GO:0016903",
+      "go_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors",
+      "level_2_cluster_id": "C2_128",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0004655": {
+      "go_id": "GO:0004655",
+      "go_name": "porphobilinogen synthase activity",
+      "level_2_cluster_id": "C2_125",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0018759": {
+      "go_id": "GO:0018759",
+      "go_name": "methenyltetrahydromethanopterin cyclohydrolase activity",
+      "level_2_cluster_id": "C2_112",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0030269": {
+      "go_id": "GO:0030269",
+      "go_name": "tetrahydromethanopterin S-methyltransferase activity",
+      "level_2_cluster_id": "C2_105",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0050524": {
+      "go_id": "GO:0050524",
+      "go_name": "coenzyme-B sulfoethylthiotransferase activity",
+      "level_2_cluster_id": "C2_132",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0015075": {
+      "go_id": "GO:0015075",
+      "go_name": "monoatomic ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0031072": {
+      "go_id": "GO:0031072",
+      "go_name": "heat shock protein binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0043885": {
+      "go_id": "GO:0043885",
+      "go_name": "anaerobic carbon-monoxide dehydrogenase activity",
+      "level_2_cluster_id": "C2_128",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0005315": {
+      "go_id": "GO:0005315",
+      "go_name": "phosphate transmembrane transporter activity",
+      "level_2_cluster_id": "C2_135",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0030234": {
+      "go_id": "GO:0030234",
+      "go_name": "enzyme regulator activity",
+      "level_2_cluster_id": "C2_044",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0015930": {
+      "go_id": "GO:0015930",
+      "go_name": "glutamate synthase activity",
+      "level_2_cluster_id": "C2_033",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0016638": {
+      "go_id": "GO:0016638",
+      "go_name": "oxidoreductase activity, acting on the CH-NH2 group of donors",
+      "level_2_cluster_id": "C2_033",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0016993": {
+      "go_id": "GO:0016993",
+      "go_name": "precorrin-8X methylmutase activity",
+      "level_2_cluster_id": "C2_029",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0005283": {
+      "go_id": "GO:0005283",
+      "go_name": "amino acid:sodium symporter activity",
+      "level_2_cluster_id": "C2_193",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0000150": {
+      "go_id": "GO:0000150",
+      "go_name": "DNA strand exchange activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0015234": {
+      "go_id": "GO:0015234",
+      "go_name": "thiamine transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0030151": {
+      "go_id": "GO:0030151",
+      "go_name": "molybdenum ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004040": {
+      "go_id": "GO:0004040",
+      "go_name": "amidase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0004175": {
+      "go_id": "GO:0004175",
+      "go_name": "endopeptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0008108": {
+      "go_id": "GO:0008108",
+      "go_name": "UDP-glucose:hexose-1-phosphate uridylyltransferase activity",
+      "level_2_cluster_id": "C2_119",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004821": {
+      "go_id": "GO:0004821",
+      "go_name": "histidine-tRNA ligase activity",
+      "level_2_cluster_id": "C2_173",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0070037": {
+      "go_id": "GO:0070037",
+      "go_name": "rRNA (pseudouridine) methyltransferase activity",
+      "level_2_cluster_id": "C2_020",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0042803": {
+      "go_id": "GO:0042803",
+      "go_name": "protein homodimerization activity",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0004713": {
+      "go_id": "GO:0004713",
+      "go_name": "protein tyrosine kinase activity",
+      "level_2_cluster_id": "C2_016",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0070008": {
+      "go_id": "GO:0070008",
+      "go_name": "serine-type exopeptidase activity",
+      "level_2_cluster_id": "C2_144",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0005102": {
+      "go_id": "GO:0005102",
+      "go_name": "signaling receptor binding",
+      "level_2_cluster_id": "C2_184",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0003873": {
+      "go_id": "GO:0003873",
+      "go_name": "6-phosphofructo-2-kinase activity",
+      "level_2_cluster_id": "C2_106",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0061575": {
+      "go_id": "GO:0061575",
+      "go_name": "cyclin-dependent protein serine/threonine kinase activator activity",
+      "level_2_cluster_id": "C2_062",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0005047": {
+      "go_id": "GO:0005047",
+      "go_name": "signal recognition particle binding",
+      "level_2_cluster_id": "C2_068",
+      "level_1_cluster_id": "C1_23"
+    },
+    "GO:0003729": {
+      "go_id": "GO:0003729",
+      "go_name": "mRNA binding",
+      "level_2_cluster_id": "C2_079",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0003810": {
+      "go_id": "GO:0003810",
+      "go_name": "protein-glutamine gamma-glutamyltransferase activity",
+      "level_2_cluster_id": "C2_086",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0050664": {
+      "go_id": "GO:0050664",
+      "go_name": "oxidoreductase activity, acting on NAD(P)H, oxygen as acceptor",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0004392": {
+      "go_id": "GO:0004392",
+      "go_name": "heme oxygenase (decyclizing) activity",
+      "level_2_cluster_id": "C2_151",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004857": {
+      "go_id": "GO:0004857",
+      "go_name": "enzyme inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0016730": {
+      "go_id": "GO:0016730",
+      "go_name": "oxidoreductase activity, acting on iron-sulfur proteins as donors",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0004140": {
+      "go_id": "GO:0004140",
+      "go_name": "dephospho-CoA kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0050053": {
+      "go_id": "GO:0050053",
+      "go_name": "levansucrase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004559": {
+      "go_id": "GO:0004559",
+      "go_name": "alpha-mannosidase activity",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0004484": {
+      "go_id": "GO:0004484",
+      "go_name": "mRNA guanylyltransferase activity",
+      "level_2_cluster_id": "C2_109",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0019863": {
+      "go_id": "GO:0019863",
+      "go_name": "IgE binding",
+      "level_2_cluster_id": "C2_067",
+      "level_1_cluster_id": "C1_23"
+    },
+    "GO:0000213": {
+      "go_id": "GO:0000213",
+      "go_name": "tRNA-intron lyase activity",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0070569": {
+      "go_id": "GO:0070569",
+      "go_name": "uridylyltransferase activity",
+      "level_2_cluster_id": "C2_119",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0003997": {
+      "go_id": "GO:0003997",
+      "go_name": "acyl-CoA oxidase activity",
+      "level_2_cluster_id": "C2_009",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0019781": {
+      "go_id": "GO:0019781",
+      "go_name": "NEDD8 activating enzyme activity",
+      "level_2_cluster_id": "C2_175",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0004126": {
+      "go_id": "GO:0004126",
+      "go_name": "cytidine deaminase activity",
+      "level_2_cluster_id": "C2_003",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0050797": {
+      "go_id": "GO:0050797",
+      "go_name": "thymidylate synthase (FAD) activity",
+      "level_2_cluster_id": "C2_105",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0009678": {
+      "go_id": "GO:0009678",
+      "go_name": "diphosphate hydrolysis-driven proton transmembrane transporter activity",
+      "level_2_cluster_id": "C2_135",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0070005": {
+      "go_id": "GO:0070005",
+      "go_name": "cysteine-type aminopeptidase activity",
+      "level_2_cluster_id": "C2_143",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0004150": {
+      "go_id": "GO:0004150",
+      "go_name": "dihydroneopterin aldolase activity",
+      "level_2_cluster_id": "C2_137",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004748": {
+      "go_id": "GO:0004748",
+      "go_name": "ribonucleoside-diphosphate reductase activity, thioredoxin disulfide as acceptor",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0008201": {
+      "go_id": "GO:0008201",
+      "go_name": "heparin binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004605": {
+      "go_id": "GO:0004605",
+      "go_name": "phosphatidate cytidylyltransferase activity",
+      "level_2_cluster_id": "C2_037",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004100": {
+      "go_id": "GO:0004100",
+      "go_name": "chitin synthase activity",
+      "level_2_cluster_id": "C2_089",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0030410": {
+      "go_id": "GO:0030410",
+      "go_name": "nicotianamine synthase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016762": {
+      "go_id": "GO:0016762",
+      "go_name": "xyloglucan:xyloglucosyl transferase activity",
+      "level_2_cluster_id": "C2_225",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0003885": {
+      "go_id": "GO:0003885",
+      "go_name": "D-arabinono-1,4-lactone oxidase activity",
+      "level_2_cluster_id": "C2_108",
+      "level_1_cluster_id": "C1_01"
+    },
+    "GO:1990817": {
+      "go_id": "GO:1990817",
+      "go_name": "poly(A) RNA polymerase activity",
+      "level_2_cluster_id": "C2_037",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0035673": {
+      "go_id": "GO:0035673",
+      "go_name": "oligopeptide transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0008915": {
+      "go_id": "GO:0008915",
+      "go_name": "lipid-A-disaccharide synthase activity",
+      "level_2_cluster_id": "C2_090",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0008115": {
+      "go_id": "GO:0008115",
+      "go_name": "sarcosine oxidase activity",
+      "level_2_cluster_id": "C2_205",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004571": {
+      "go_id": "GO:0004571",
+      "go_name": "mannosyl-oligosaccharide 1,2-alpha-mannosidase activity",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0005436": {
+      "go_id": "GO:0005436",
+      "go_name": "sodium:phosphate symporter activity",
+      "level_2_cluster_id": "C2_193",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004535": {
+      "go_id": "GO:0004535",
+      "go_name": "poly(A)-specific ribonuclease activity",
+      "level_2_cluster_id": "C2_019",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0015016": {
+      "go_id": "GO:0015016",
+      "go_name": "heparan sulfate N-sulfotransferase activity",
+      "level_2_cluster_id": "C2_053",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0043539": {
+      "go_id": "GO:0043539",
+      "go_name": "protein serine/threonine kinase activator activity",
+      "level_2_cluster_id": "C2_062",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0017110": {
+      "go_id": "GO:0017110",
+      "go_name": "nucleoside diphosphate phosphatase activity",
+      "level_2_cluster_id": "C2_150",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0019887": {
+      "go_id": "GO:0019887",
+      "go_name": "protein kinase regulator activity",
+      "level_2_cluster_id": "C2_215",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0000772": {
+      "go_id": "GO:0000772",
+      "go_name": "mating pheromone activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0005133": {
+      "go_id": "GO:0005133",
+      "go_name": "type II interferon receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0005135": {
+      "go_id": "GO:0005135",
+      "go_name": "interleukin-3 receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0004715": {
+      "go_id": "GO:0004715",
+      "go_name": "non-membrane spanning protein tyrosine kinase activity",
+      "level_2_cluster_id": "C2_016",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008310": {
+      "go_id": "GO:0008310",
+      "go_name": "single-stranded DNA 3'-5' DNA exonuclease activity",
+      "level_2_cluster_id": "C2_166",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0005134": {
+      "go_id": "GO:0005134",
+      "go_name": "interleukin-2 receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0008725": {
+      "go_id": "GO:0008725",
+      "go_name": "DNA-3-methyladenine glycosylase activity",
+      "level_2_cluster_id": "C2_041",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0003917": {
+      "go_id": "GO:0003917",
+      "go_name": "DNA topoisomerase type I (single strand cut, ATP-independent) activity",
+      "level_2_cluster_id": "C2_078",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0004113": {
+      "go_id": "GO:0004113",
+      "go_name": "2',3'-cyclic-nucleotide 3'-phosphodiesterase activity",
+      "level_2_cluster_id": "C2_131",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0003972": {
+      "go_id": "GO:0003972",
+      "go_name": "RNA ligase (ATP) activity",
+      "level_2_cluster_id": "C2_117",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0004451": {
+      "go_id": "GO:0004451",
+      "go_name": "isocitrate lyase activity",
+      "level_2_cluster_id": "C2_130",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0009001": {
+      "go_id": "GO:0009001",
+      "go_name": "L-serine O-acetyltransferase activity",
+      "level_2_cluster_id": "C2_121",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0008817": {
+      "go_id": "GO:0008817",
+      "go_name": "corrinoid adenosyltransferase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0009486": {
+      "go_id": "GO:0009486",
+      "go_name": "cytochrome bo3 ubiquinol oxidase activity",
+      "level_2_cluster_id": "C2_135",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0043752": {
+      "go_id": "GO:0043752",
+      "go_name": "adenosylcobinamide kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0015501": {
+      "go_id": "GO:0015501",
+      "go_name": "glutamate:sodium symporter activity",
+      "level_2_cluster_id": "C2_193",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0034257": {
+      "go_id": "GO:0034257",
+      "go_name": "nicotinamide riboside transmembrane transporter activity",
+      "level_2_cluster_id": "C2_197",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0003919": {
+      "go_id": "GO:0003919",
+      "go_name": "FMN adenylyltransferase activity",
+      "level_2_cluster_id": "C2_037",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0015485": {
+      "go_id": "GO:0015485",
+      "go_name": "cholesterol binding",
+      "level_2_cluster_id": "C2_054",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0090729": {
+      "go_id": "GO:0090729",
+      "go_name": "toxin activity",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0033691": {
+      "go_id": "GO:0033691",
+      "go_name": "sialic acid binding",
+      "level_2_cluster_id": "C2_070",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008121": {
+      "go_id": "GO:0008121",
+      "go_name": "quinol-cytochrome-c reductase activity",
+      "level_2_cluster_id": "C2_135",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0030247": {
+      "go_id": "GO:0030247",
+      "go_name": "polysaccharide binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0031151": {
+      "go_id": "GO:0031151",
+      "go_name": "histone H3K79 methyltransferase activity",
+      "level_2_cluster_id": "C2_231",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0046870": {
+      "go_id": "GO:0046870",
+      "go_name": "cadmium ion binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008320": {
+      "go_id": "GO:0008320",
+      "go_name": "transmembrane protein transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0016298": {
+      "go_id": "GO:0016298",
+      "go_name": "lipase activity",
+      "level_2_cluster_id": "C2_095",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0005139": {
+      "go_id": "GO:0005139",
+      "go_name": "interleukin-7 receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0005518": {
+      "go_id": "GO:0005518",
+      "go_name": "collagen binding",
+      "level_2_cluster_id": "C2_068",
+      "level_1_cluster_id": "C1_23"
+    },
+    "GO:0030598": {
+      "go_id": "GO:0030598",
+      "go_name": "rRNA N-glycosylase activity",
+      "level_2_cluster_id": "C2_107",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0047286": {
+      "go_id": "GO:0047286",
+      "go_name": "NAD+-diphthamide ADP-ribosyltransferase activity",
+      "level_2_cluster_id": "C2_010",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004115": {
+      "go_id": "GO:0004115",
+      "go_name": "3',5'-cyclic-AMP phosphodiesterase activity",
+      "level_2_cluster_id": "C2_131",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0010011": {
+      "go_id": "GO:0010011",
+      "go_name": "auxin binding",
+      "level_2_cluster_id": "C2_201",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0003746": {
+      "go_id": "GO:0003746",
+      "go_name": "translation elongation factor activity",
+      "level_2_cluster_id": "C2_081",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0004896": {
+      "go_id": "GO:0004896",
+      "go_name": "cytokine receptor activity",
+      "level_2_cluster_id": "C2_055",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0008093": {
+      "go_id": "GO:0008093",
+      "go_name": "cytoskeletal adaptor activity",
+      "level_2_cluster_id": "C2_183",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0070840": {
+      "go_id": "GO:0070840",
+      "go_name": "dynein complex binding",
+      "level_2_cluster_id": "C2_068",
+      "level_1_cluster_id": "C1_23"
+    },
+    "GO:0000217": {
+      "go_id": "GO:0000217",
+      "go_name": "DNA secondary structure binding",
+      "level_2_cluster_id": "C2_024",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0030354": {
+      "go_id": "GO:0030354",
+      "go_name": "melanin-concentrating hormone activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0005094": {
+      "go_id": "GO:0005094",
+      "go_name": "Rho GDP-dissociation inhibitor activity",
+      "level_2_cluster_id": "C2_044",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0008437": {
+      "go_id": "GO:0008437",
+      "go_name": "thyrotropin-releasing hormone activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0008900": {
+      "go_id": "GO:0008900",
+      "go_name": "P-type potassium:proton transporter activity",
+      "level_2_cluster_id": "C2_200",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0003877": {
+      "go_id": "GO:0003877",
+      "go_name": "ATP:ADP adenylyltransferase activity",
+      "level_2_cluster_id": "C2_037",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0003870": {
+      "go_id": "GO:0003870",
+      "go_name": "5-aminolevulinate synthase activity",
+      "level_2_cluster_id": "C2_097",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0008198": {
+      "go_id": "GO:0008198",
+      "go_name": "ferrous iron binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008255": {
+      "go_id": "GO:0008255",
+      "go_name": "ecdysis-triggering hormone activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0009922": {
+      "go_id": "GO:0009922",
+      "go_name": "fatty acid elongase activity",
+      "level_2_cluster_id": "C2_097",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0005092": {
+      "go_id": "GO:0005092",
+      "go_name": "GDP-dissociation inhibitor activity",
+      "level_2_cluster_id": "C2_044",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0004797": {
+      "go_id": "GO:0004797",
+      "go_name": "thymidine kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004064": {
+      "go_id": "GO:0004064",
+      "go_name": "arylesterase activity",
+      "level_2_cluster_id": "C2_095",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0061809": {
+      "go_id": "GO:0061809",
+      "go_name": "NAD+ nucleosidase activity, cyclic ADP-ribose generating",
+      "level_2_cluster_id": "C2_107",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0016168": {
+      "go_id": "GO:0016168",
+      "go_name": "chlorophyll binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004932": {
+      "go_id": "GO:0004932",
+      "go_name": "mating-type factor pheromone receptor activity",
+      "level_2_cluster_id": "C2_058",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0015562": {
+      "go_id": "GO:0015562",
+      "go_name": "efflux transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0008528": {
+      "go_id": "GO:0008528",
+      "go_name": "G protein-coupled peptide receptor activity",
+      "level_2_cluster_id": "C2_058",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0003994": {
+      "go_id": "GO:0003994",
+      "go_name": "aconitate hydratase activity",
+      "level_2_cluster_id": "C2_125",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0016989": {
+      "go_id": "GO:0016989",
+      "go_name": "sigma factor antagonist activity",
+      "level_2_cluster_id": "C2_050",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0008521": {
+      "go_id": "GO:0008521",
+      "go_name": "acetyl-CoA transmembrane transporter activity",
+      "level_2_cluster_id": "C2_213",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0005375": {
+      "go_id": "GO:0005375",
+      "go_name": "copper ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0047355": {
+      "go_id": "GO:0047355",
+      "go_name": "CDP-glycerol glycerophosphotransferase activity",
+      "level_2_cluster_id": "C2_076",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016706": {
+      "go_id": "GO:0016706",
+      "go_name": "2-oxoglutarate-dependent dioxygenase activity",
+      "level_2_cluster_id": "C2_048",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0031418": {
+      "go_id": "GO:0031418",
+      "go_name": "L-ascorbic acid binding",
+      "level_2_cluster_id": "C2_070",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0005381": {
+      "go_id": "GO:0005381",
+      "go_name": "iron ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0008294": {
+      "go_id": "GO:0008294",
+      "go_name": "calcium- and calmodulin-responsive adenylate cyclase activity",
+      "level_2_cluster_id": "C2_127",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0042626": {
+      "go_id": "GO:0042626",
+      "go_name": "ATPase-coupled transmembrane transporter activity",
+      "level_2_cluster_id": "C2_214",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0034228": {
+      "go_id": "GO:0034228",
+      "go_name": "ethanolamine transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004864": {
+      "go_id": "GO:0004864",
+      "go_name": "protein phosphatase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0004852": {
+      "go_id": "GO:0004852",
+      "go_name": "uroporphyrinogen-III synthase activity",
+      "level_2_cluster_id": "C2_125",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0004097": {
+      "go_id": "GO:0004097",
+      "go_name": "catechol oxidase activity",
+      "level_2_cluster_id": "C2_031",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0015108": {
+      "go_id": "GO:0015108",
+      "go_name": "chloride transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0019534": {
+      "go_id": "GO:0019534",
+      "go_name": "toxin transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0009036": {
+      "go_id": "GO:0009036",
+      "go_name": "type II site-specific deoxyribonuclease activity",
+      "level_2_cluster_id": "C2_002",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0015558": {
+      "go_id": "GO:0015558",
+      "go_name": "secondary active p-aminobenzoyl-glutamate transmembrane transporter activity",
+      "level_2_cluster_id": "C2_135",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004074": {
+      "go_id": "GO:0004074",
+      "go_name": "biliverdin reductase [NAD(P)H] activity",
+      "level_2_cluster_id": "C2_027",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0015079": {
+      "go_id": "GO:0015079",
+      "go_name": "potassium ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0017128": {
+      "go_id": "GO:0017128",
+      "go_name": "phospholipid scramblase activity",
+      "level_2_cluster_id": "C2_229",
+      "level_1_cluster_id": "C1_28"
+    },
+    "GO:0048487": {
+      "go_id": "GO:0048487",
+      "go_name": "beta-tubulin binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0001216": {
+      "go_id": "GO:0001216",
+      "go_name": "DNA-binding transcription activator activity",
+      "level_2_cluster_id": "C2_050",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0106274": {
+      "go_id": "GO:0106274",
+      "go_name": "NAD+-protein-arginine ADP-ribosyltransferase activity",
+      "level_2_cluster_id": "C2_253",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004408": {
+      "go_id": "GO:0004408",
+      "go_name": "holocytochrome-c synthase activity",
+      "level_2_cluster_id": "C2_134",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0008195": {
+      "go_id": "GO:0008195",
+      "go_name": "phosphatidate phosphatase activity",
+      "level_2_cluster_id": "C2_011",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0003726": {
+      "go_id": "GO:0003726",
+      "go_name": "double-stranded RNA adenosine deaminase activity",
+      "level_2_cluster_id": "C2_003",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0015129": {
+      "go_id": "GO:0015129",
+      "go_name": "lactate transmembrane transporter activity",
+      "level_2_cluster_id": "C2_196",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0033038": {
+      "go_id": "GO:0033038",
+      "go_name": "bitter taste receptor activity",
+      "level_2_cluster_id": "C2_057",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0008657": {
+      "go_id": "GO:0008657",
+      "go_name": "DNA topoisomerase type II (double strand cut, ATP-hydrolyzing) inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0004308": {
+      "go_id": "GO:0004308",
+      "go_name": "exo-alpha-sialidase activity",
+      "level_2_cluster_id": "C2_113",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0005198": {
+      "go_id": "GO:0005198",
+      "go_name": "structural molecule activity",
+      "level_2_cluster_id": "C2_080",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0031404": {
+      "go_id": "GO:0031404",
+      "go_name": "chloride ion binding",
+      "level_2_cluster_id": "C2_007",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0016805": {
+      "go_id": "GO:0016805",
+      "go_name": "dipeptidase activity",
+      "level_2_cluster_id": "C2_143",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0003724": {
+      "go_id": "GO:0003724",
+      "go_name": "RNA helicase activity",
+      "level_2_cluster_id": "C2_078",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0008907": {
+      "go_id": "GO:0008907",
+      "go_name": "integrase activity",
+      "level_2_cluster_id": "C2_015",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0009882": {
+      "go_id": "GO:0009882",
+      "go_name": "blue light photoreceptor activity",
+      "level_2_cluster_id": "C2_017",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0042925": {
+      "go_id": "GO:0042925",
+      "go_name": "benzoate transmembrane transporter activity",
+      "level_2_cluster_id": "C2_196",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0009007": {
+      "go_id": "GO:0009007",
+      "go_name": "site-specific DNA-methyltransferase (adenine-specific) activity",
+      "level_2_cluster_id": "C2_026",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0016837": {
+      "go_id": "GO:0016837",
+      "go_name": "carbon-oxygen lyase activity, acting on polysaccharides",
+      "level_2_cluster_id": "C2_222",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0008527": {
+      "go_id": "GO:0008527",
+      "go_name": "taste receptor activity",
+      "level_2_cluster_id": "C2_057",
+      "level_1_cluster_id": "C1_07"
+    },
+    "GO:0070004": {
+      "go_id": "GO:0070004",
+      "go_name": "cysteine-type exopeptidase activity",
+      "level_2_cluster_id": "C2_143",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0047605": {
+      "go_id": "GO:0047605",
+      "go_name": "acetolactate decarboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0019904": {
+      "go_id": "GO:0019904",
+      "go_name": "protein domain specific binding",
+      "level_2_cluster_id": "C2_235",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0052636": {
+      "go_id": "GO:0052636",
+      "go_name": "arabinosyltransferase activity",
+      "level_2_cluster_id": "C2_010",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0016755": {
+      "go_id": "GO:0016755",
+      "go_name": "aminoacyltransferase activity",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0003830": {
+      "go_id": "GO:0003830",
+      "go_name": "beta-1,4-mannosylglycoprotein 4-beta-N-acetylglucosaminyltransferase activity",
+      "level_2_cluster_id": "C2_089",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0010945": {
+      "go_id": "GO:0010945",
+      "go_name": "coenzyme A diphosphatase activity",
+      "level_2_cluster_id": "C2_022",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0032266": {
+      "go_id": "GO:0032266",
+      "go_name": "phosphatidylinositol-3-phosphate binding",
+      "level_2_cluster_id": "C2_054",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0045301": {
+      "go_id": "GO:0045301",
+      "go_name": "tRNA 2-(methylsulfanyl)-N(6)-isopentenyladenosine(37) hydroxylase activity",
+      "level_2_cluster_id": "C2_005",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0004663": {
+      "go_id": "GO:0004663",
+      "go_name": "Rab geranylgeranyltransferase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0015098": {
+      "go_id": "GO:0015098",
+      "go_name": "molybdate ion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0003980": {
+      "go_id": "GO:0003980",
+      "go_name": "UDP-glucose:glycoprotein glucosyltransferase activity",
+      "level_2_cluster_id": "C2_088",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0015018": {
+      "go_id": "GO:0015018",
+      "go_name": "galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase activity",
+      "level_2_cluster_id": "C2_069",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0016838": {
+      "go_id": "GO:0016838",
+      "go_name": "carbon-oxygen lyase activity, acting on phosphates",
+      "level_2_cluster_id": "C2_100",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0010277": {
+      "go_id": "GO:0010277",
+      "go_name": "chlorophyllide a oxygenase activity",
+      "level_2_cluster_id": "C2_161",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0043720": {
+      "go_id": "GO:0043720",
+      "go_name": "3-keto-5-aminohexanoate cleavage activity",
+      "level_2_cluster_id": "C2_097",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0106370": {
+      "go_id": "GO:0106370",
+      "go_name": "protein-L-histidine N-pros-methyltransferase activity",
+      "level_2_cluster_id": "C2_026",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0097602": {
+      "go_id": "GO:0097602",
+      "go_name": "cullin family protein binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0016866": {
+      "go_id": "GO:0016866",
+      "go_name": "intramolecular transferase activity",
+      "level_2_cluster_id": "C2_029",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0004631": {
+      "go_id": "GO:0004631",
+      "go_name": "phosphomevalonate kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0015631": {
+      "go_id": "GO:0015631",
+      "go_name": "tubulin binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0005254": {
+      "go_id": "GO:0005254",
+      "go_name": "chloride channel activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0071858": {
+      "go_id": "GO:0071858",
+      "go_name": "corazonin receptor binding",
+      "level_2_cluster_id": "C2_060",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0008418": {
+      "go_id": "GO:0008418",
+      "go_name": "protein-N-terminal asparagine amidohydrolase activity",
+      "level_2_cluster_id": "C2_210",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0017022": {
+      "go_id": "GO:0017022",
+      "go_name": "myosin binding",
+      "level_2_cluster_id": "C2_234",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0005129": {
+      "go_id": "GO:0005129",
+      "go_name": "granulocyte macrophage colony-stimulating factor receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0000774": {
+      "go_id": "GO:0000774",
+      "go_name": "adenyl-nucleotide exchange factor activity",
+      "level_2_cluster_id": "C2_044",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0016774": {
+      "go_id": "GO:0016774",
+      "go_name": "phosphotransferase activity, carboxyl group as acceptor",
+      "level_2_cluster_id": "C2_223",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004594": {
+      "go_id": "GO:0004594",
+      "go_name": "pantothenate kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008773": {
+      "go_id": "GO:0008773",
+      "go_name": "[protein-PII] uridylyltransferase activity",
+      "level_2_cluster_id": "C2_119",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016814": {
+      "go_id": "GO:0016814",
+      "go_name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in cyclic amidines",
+      "level_2_cluster_id": "C2_003",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0016977": {
+      "go_id": "GO:0016977",
+      "go_name": "chitosanase activity",
+      "level_2_cluster_id": "C2_085",
+      "level_1_cluster_id": "C1_26"
+    },
+    "GO:0050097": {
+      "go_id": "GO:0050097",
+      "go_name": "methylaspartate mutase activity",
+      "level_2_cluster_id": "C2_029",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0051743": {
+      "go_id": "GO:0051743",
+      "go_name": "red chlorophyll catabolite reductase activity",
+      "level_2_cluster_id": "C2_009",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0032217": {
+      "go_id": "GO:0032217",
+      "go_name": "riboflavin transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0004862": {
+      "go_id": "GO:0004862",
+      "go_name": "cAMP-dependent protein kinase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0004366": {
+      "go_id": "GO:0004366",
+      "go_name": "glycerol-3-phosphate O-acyltransferase activity",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0030058": {
+      "go_id": "GO:0030058",
+      "go_name": "aliphatic amine dehydrogenase activity",
+      "level_2_cluster_id": "C2_033",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0016423": {
+      "go_id": "GO:0016423",
+      "go_name": "tRNA (guanine) methyltransferase activity",
+      "level_2_cluster_id": "C2_208",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0106073": {
+      "go_id": "GO:0106073",
+      "go_name": "dolichyl pyrophosphate Glc2Man9GlcNAc2 alpha-1,2-glucosyltransferase activity",
+      "level_2_cluster_id": "C2_225",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0090560": {
+      "go_id": "GO:0090560",
+      "go_name": "2-(3-amino-3-carboxypropyl)histidine synthase activity",
+      "level_2_cluster_id": "C2_047",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0051751": {
+      "go_id": "GO:0051751",
+      "go_name": "alpha-1,4-mannosyltransferase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0016625": {
+      "go_id": "GO:0016625",
+      "go_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, iron-sulfur protein as acceptor",
+      "level_2_cluster_id": "C2_128",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0000340": {
+      "go_id": "GO:0000340",
+      "go_name": "RNA 7-methylguanosine cap binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0070273": {
+      "go_id": "GO:0070273",
+      "go_name": "phosphatidylinositol-4-phosphate binding",
+      "level_2_cluster_id": "C2_007",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0046406": {
+      "go_id": "GO:0046406",
+      "go_name": "magnesium protoporphyrin IX methyltransferase activity",
+      "level_2_cluster_id": "C2_026",
+      "level_1_cluster_id": "C1_09"
+    },
+    "GO:0090482": {
+      "go_id": "GO:0090482",
+      "go_name": "vitamin transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0016783": {
+      "go_id": "GO:0016783",
+      "go_name": "sulfurtransferase activity",
+      "level_2_cluster_id": "C2_132",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008184": {
+      "go_id": "GO:0008184",
+      "go_name": "glycogen phosphorylase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004198": {
+      "go_id": "GO:0004198",
+      "go_name": "calcium-dependent cysteine-type endopeptidase activity",
+      "level_2_cluster_id": "C2_077",
+      "level_1_cluster_id": "C1_00"
+    },
+    "GO:0008190": {
+      "go_id": "GO:0008190",
+      "go_name": "eukaryotic initiation factor 4E binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0004325": {
+      "go_id": "GO:0004325",
+      "go_name": "protoporphyrin ferrochelatase activity",
+      "level_2_cluster_id": "C2_134",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0015144": {
+      "go_id": "GO:0015144",
+      "go_name": "carbohydrate transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0047869": {
+      "go_id": "GO:0047869",
+      "go_name": "dimethylpropiothetin dethiomethylase activity",
+      "level_2_cluster_id": "C2_134",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0019888": {
+      "go_id": "GO:0019888",
+      "go_name": "protein phosphatase regulator activity",
+      "level_2_cluster_id": "C2_044",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0005138": {
+      "go_id": "GO:0005138",
+      "go_name": "interleukin-6 receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0016603": {
+      "go_id": "GO:0016603",
+      "go_name": "glutaminyl-peptide cyclotransferase activity",
+      "level_2_cluster_id": "C2_086",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0005272": {
+      "go_id": "GO:0005272",
+      "go_name": "sodium channel activity",
+      "level_2_cluster_id": "C2_189",
+      "level_1_cluster_id": "C1_15"
+    },
+    "GO:0043015": {
+      "go_id": "GO:0043015",
+      "go_name": "gamma-tubulin binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0031854": {
+      "go_id": "GO:0031854",
+      "go_name": "orexigenic neuropeptide QRFP receptor binding",
+      "level_2_cluster_id": "C2_060",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0008851": {
+      "go_id": "GO:0008851",
+      "go_name": "ethanolamine ammonia-lyase activity",
+      "level_2_cluster_id": "C2_092",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0005471": {
+      "go_id": "GO:0005471",
+      "go_name": "ATP:ADP antiporter activity",
+      "level_2_cluster_id": "C2_036",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0043740": {
+      "go_id": "GO:0043740",
+      "go_name": "GTP cyclohydrolase IIa activity",
+      "level_2_cluster_id": "C2_112",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0030492": {
+      "go_id": "GO:0030492",
+      "go_name": "hemoglobin binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0008253": {
+      "go_id": "GO:0008253",
+      "go_name": "5'-nucleotidase activity",
+      "level_2_cluster_id": "C2_011",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0050485": {
+      "go_id": "GO:0050485",
+      "go_name": "oxidoreductase activity, acting on X-H and Y-H to form an X-Y bond, with a disulfide as acceptor",
+      "level_2_cluster_id": "C2_230",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0005543": {
+      "go_id": "GO:0005543",
+      "go_name": "phospholipid binding",
+      "level_2_cluster_id": "C2_054",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0004527": {
+      "go_id": "GO:0004527",
+      "go_name": "exonuclease activity",
+      "level_2_cluster_id": "C2_165",
+      "level_1_cluster_id": "C1_21"
+    },
+    "GO:0008880": {
+      "go_id": "GO:0008880",
+      "go_name": "glucuronate isomerase activity",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0004144": {
+      "go_id": "GO:0004144",
+      "go_name": "diacylglycerol O-acyltransferase activity",
+      "level_2_cluster_id": "C2_093",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0005542": {
+      "go_id": "GO:0005542",
+      "go_name": "folic acid binding",
+      "level_2_cluster_id": "C2_070",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0043548": {
+      "go_id": "GO:0043548",
+      "go_name": "phosphatidylinositol 3-kinase binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0042134": {
+      "go_id": "GO:0042134",
+      "go_name": "rRNA primary transcript binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0036094": {
+      "go_id": "GO:0036094",
+      "go_name": "small molecule binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0052742": {
+      "go_id": "GO:0052742",
+      "go_name": "phosphatidylinositol kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0004806": {
+      "go_id": "GO:0004806",
+      "go_name": "triacylglycerol lipase activity",
+      "level_2_cluster_id": "C2_095",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0048472": {
+      "go_id": "GO:0048472",
+      "go_name": "threonine-phosphate decarboxylase activity",
+      "level_2_cluster_id": "C2_066",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0046917": {
+      "go_id": "GO:0046917",
+      "go_name": "triphosphoribosyl-dephospho-CoA synthase activity",
+      "level_2_cluster_id": "C2_076",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0001733": {
+      "go_id": "GO:0001733",
+      "go_name": "galactosylceramide sulfotransferase activity",
+      "level_2_cluster_id": "C2_053",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0106245": {
+      "go_id": "GO:0106245",
+      "go_name": "L-serine-phosphatidylethanolamine phosphatidyltransferase activity",
+      "level_2_cluster_id": "C2_076",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0008901": {
+      "go_id": "GO:0008901",
+      "go_name": "ferredoxin hydrogenase activity",
+      "level_2_cluster_id": "C2_052",
+      "level_1_cluster_id": "C1_08"
+    },
+    "GO:0001664": {
+      "go_id": "GO:0001664",
+      "go_name": "G protein-coupled receptor binding",
+      "level_2_cluster_id": "C2_060",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0015093": {
+      "go_id": "GO:0015093",
+      "go_name": "ferrous iron transmembrane transporter activity",
+      "level_2_cluster_id": "C2_199",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0003941": {
+      "go_id": "GO:0003941",
+      "go_name": "L-serine ammonia-lyase activity",
+      "level_2_cluster_id": "C2_092",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0008509": {
+      "go_id": "GO:0008509",
+      "go_name": "monoatomic anion transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0042289": {
+      "go_id": "GO:0042289",
+      "go_name": "MHC class II protein binding",
+      "level_2_cluster_id": "C2_184",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0005026": {
+      "go_id": "GO:0005026",
+      "go_name": "transforming growth factor beta receptor activity, type II",
+      "level_2_cluster_id": "C2_169",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016158": {
+      "go_id": "GO:0016158",
+      "go_name": "inositol hexakisphosphate 3-phosphatase activity",
+      "level_2_cluster_id": "C2_156",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0004714": {
+      "go_id": "GO:0004714",
+      "go_name": "transmembrane receptor protein tyrosine kinase activity",
+      "level_2_cluster_id": "C2_169",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0035299": {
+      "go_id": "GO:0035299",
+      "go_name": "inositol-1,3,4,5,6-pentakisphosphate 2-kinase activity",
+      "level_2_cluster_id": "C2_046",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0005185": {
+      "go_id": "GO:0005185",
+      "go_name": "neurohypophyseal hormone activity",
+      "level_2_cluster_id": "C2_043",
+      "level_1_cluster_id": "C1_12"
+    },
+    "GO:0005212": {
+      "go_id": "GO:0005212",
+      "go_name": "structural constituent of eye lens",
+      "level_2_cluster_id": "C2_080",
+      "level_1_cluster_id": "C1_31"
+    },
+    "GO:0008452": {
+      "go_id": "GO:0008452",
+      "go_name": "RNA ligase activity",
+      "level_2_cluster_id": "C2_117",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0009029": {
+      "go_id": "GO:0009029",
+      "go_name": "lipid-A 4'-kinase activity",
+      "level_2_cluster_id": "C2_032",
+      "level_1_cluster_id": "C1_04"
+    },
+    "GO:0016531": {
+      "go_id": "GO:0016531",
+      "go_name": "copper chaperone activity",
+      "level_2_cluster_id": "C2_039",
+      "level_1_cluster_id": "C1_28"
+    },
+    "GO:0000977": {
+      "go_id": "GO:0000977",
+      "go_name": "RNA polymerase II transcription regulatory region sequence-specific DNA binding",
+      "level_2_cluster_id": "C2_049",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0032422": {
+      "go_id": "GO:0032422",
+      "go_name": "purine-rich negative regulatory element binding",
+      "level_2_cluster_id": "C2_049",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0008107": {
+      "go_id": "GO:0008107",
+      "go_name": "galactoside 2-alpha-L-fucosyltransferase activity",
+      "level_2_cluster_id": "C2_000",
+      "level_1_cluster_id": "C1_18"
+    },
+    "GO:0004107": {
+      "go_id": "GO:0004107",
+      "go_name": "chorismate synthase activity",
+      "level_2_cluster_id": "C2_100",
+      "level_1_cluster_id": "C1_17"
+    },
+    "GO:0004109": {
+      "go_id": "GO:0004109",
+      "go_name": "coproporphyrinogen oxidase activity",
+      "level_2_cluster_id": "C2_009",
+      "level_1_cluster_id": "C1_14"
+    },
+    "GO:0004637": {
+      "go_id": "GO:0004637",
+      "go_name": "phosphoribosylamine-glycine ligase activity",
+      "level_2_cluster_id": "C2_091",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0061657": {
+      "go_id": "GO:0061657",
+      "go_name": "UFM1 conjugating enzyme activity",
+      "level_2_cluster_id": "C2_086",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0008800": {
+      "go_id": "GO:0008800",
+      "go_name": "beta-lactamase activity",
+      "level_2_cluster_id": "C2_025",
+      "level_1_cluster_id": "C1_03"
+    },
+    "GO:0004379": {
+      "go_id": "GO:0004379",
+      "go_name": "glycylpeptide N-tetradecanoyltransferase activity",
+      "level_2_cluster_id": "C2_097",
+      "level_1_cluster_id": "C1_19"
+    },
+    "GO:0016872": {
+      "go_id": "GO:0016872",
+      "go_name": "intramolecular lyase activity",
+      "level_2_cluster_id": "C2_164",
+      "level_1_cluster_id": "C1_13"
+    },
+    "GO:0030298": {
+      "go_id": "GO:0030298",
+      "go_name": "receptor signaling protein tyrosine kinase activator activity",
+      "level_2_cluster_id": "C2_062",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0030971": {
+      "go_id": "GO:0030971",
+      "go_name": "receptor tyrosine kinase binding",
+      "level_2_cluster_id": "C2_182",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0005143": {
+      "go_id": "GO:0005143",
+      "go_name": "interleukin-12 receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0070034": {
+      "go_id": "GO:0070034",
+      "go_name": "telomerase RNA binding",
+      "level_2_cluster_id": "C2_006",
+      "level_1_cluster_id": "C1_11"
+    },
+    "GO:0015556": {
+      "go_id": "GO:0015556",
+      "go_name": "C4-dicarboxylate transmembrane transporter activity",
+      "level_2_cluster_id": "C2_008",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0015450": {
+      "go_id": "GO:0015450",
+      "go_name": "protein-transporting ATPase activity",
+      "level_2_cluster_id": "C2_214",
+      "level_1_cluster_id": "C1_06"
+    },
+    "GO:0005136": {
+      "go_id": "GO:0005136",
+      "go_name": "interleukin-4 receptor binding",
+      "level_2_cluster_id": "C2_072",
+      "level_1_cluster_id": "C1_02"
+    },
+    "GO:0050839": {
+      "go_id": "GO:0050839",
+      "go_name": "cell adhesion molecule binding",
+      "level_2_cluster_id": "C2_178",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0008771": {
+      "go_id": "GO:0008771",
+      "go_name": "[citrate (pro-3S)-lyase] ligase activity",
+      "level_2_cluster_id": "C2_122",
+      "level_1_cluster_id": "C1_27"
+    },
+    "GO:0001882": {
+      "go_id": "GO:0001882",
+      "go_name": "nucleoside binding",
+      "level_2_cluster_id": "C2_018",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008534": {
+      "go_id": "GO:0008534",
+      "go_name": "oxidized purine nucleobase lesion DNA N-glycosylase activity",
+      "level_2_cluster_id": "C2_041",
+      "level_1_cluster_id": "C1_30"
+    },
+    "GO:0019211": {
+      "go_id": "GO:0019211",
+      "go_name": "phosphatase activator activity",
+      "level_2_cluster_id": "C2_062",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0004383": {
+      "go_id": "GO:0004383",
+      "go_name": "guanylate cyclase activity",
+      "level_2_cluster_id": "C2_127",
+      "level_1_cluster_id": "C1_10"
+    },
+    "GO:0004860": {
+      "go_id": "GO:0004860",
+      "go_name": "protein kinase inhibitor activity",
+      "level_2_cluster_id": "C2_063",
+      "level_1_cluster_id": "C1_25"
+    },
+    "GO:0051381": {
+      "go_id": "GO:0051381",
+      "go_name": "histamine binding",
+      "level_2_cluster_id": "C2_034",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0070026": {
+      "go_id": "GO:0070026",
+      "go_name": "nitric oxide binding",
+      "level_2_cluster_id": "C2_004",
+      "level_1_cluster_id": "C1_22"
+    },
+    "GO:0008013": {
+      "go_id": "GO:0008013",
+      "go_name": "beta-catenin binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0016790": {
+      "go_id": "GO:0016790",
+      "go_name": "thiolester hydrolase activity",
+      "level_2_cluster_id": "C2_095",
+      "level_1_cluster_id": "C1_16"
+    },
+    "GO:0008157": {
+      "go_id": "GO:0008157",
+      "go_name": "protein phosphatase 1 binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    },
+    "GO:0008740": {
+      "go_id": "GO:0008740",
+      "go_name": "L-rhamnose isomerase activity",
+      "level_2_cluster_id": "C2_083",
+      "level_1_cluster_id": "C1_29"
+    },
+    "GO:0031625": {
+      "go_id": "GO:0031625",
+      "go_name": "ubiquitin protein ligase binding",
+      "level_2_cluster_id": "C2_014",
+      "level_1_cluster_id": "C1_24"
+    }
+  }
+}

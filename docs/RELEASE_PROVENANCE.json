@@ -1,0 +1,168 @@
+{
+  "source_commit": "80495ca41aeed478d6d041a09838005939ed1138",
+  "policy": "Unused residual classifier and legacy CLIs removed. Direct layers extracted with identical parameter keys and arithmetic. Unchanged scientific definitions retain their original AST hashes; changed containers have current integrity hashes and independent archive numerical parity.",
+  "normalization": "Only evaluate_domain imports inside definitions become .decoding; empty Python 3.12 type_params AST fields are omitted for Python 3.10 compatibility.",
+  "files": [
+    {
+      "source": "code/mask_condition_ablation/model.py",
+      "target": "quasf/model.py",
+      "source_sha256": "416a3c3f93410080c75b7c215d1f8b63010d14d4febd589ffb6a9d21566bef0b",
+      "definitions": {
+        "sinusoidal_position_encoding": "a5eca22fd6ae5474be5b9915f071998fa6dc1b77bb734ab36f5c24e297c5199a",
+        "DualQueryDecoupledModel": "b47e0a4d72dab0b5879383f28a0a72fb860bbd5016a8dff104eb9469bc2014b4"
+      },
+      "remote_source_sha256": "416a3c3f93410080c75b7c215d1f8b63010d14d4febd589ffb6a9d21566bef0b"
+    },
+    {
+      "source": "code/mask_condition_ablation/dataset.py",
+      "target": "quasf/data.py",
+      "source_sha256": "af726fd131a8b565ea1312d7b9c0e7bc9aa286738952c8b26b710212c7fef054",
+      "definitions": {
+        "EndToEndDomainFunctionDataset": "045fe191dc8edd3402bf2d42b1d9327b7ef6656098ef4706ad84e86da6503bbe",
+        "collate_fn": "50355bd9292705efecb4d2a02644aa53850708b7cd9d8c51020753b4b0f5b583"
+      },
+      "remote_source_sha256": "af726fd131a8b565ea1312d7b9c0e7bc9aa286738952c8b26b710212c7fef054"
+    },
+    {
+      "source": "code/mask_condition_ablation/loss.py",
+      "target": "quasf/losses.py",
+      "source_sha256": "31174dd3387b0ae92aedf773012efe69d85a332687659dacbcc1095b9b8a8e4d",
+      "definitions": {
+        "DiceLoss": "a3b6733bc2a556e76d10158fc8d388f8320c41e018e53cadb9b77211f074d69c",
+        "DomainHungarianMatcher": "c0a674092550296c0c9e0470c0aebb2cf4ad0e46f5eff223c97e4b04bcba9040",
+        "MultiDomainMaskLoss": "1f440fd1975d4a891ac116fd50d5bfcdb91c13c5e1d9a840c7f0d6fa4267af49",
+        "DenoisingMaskLoss": "34c31202b66d48608281bc5936cebba70197b8a445e570608d6e5495d1702fb7",
+        "DomainSelectionLoss": "98a716b60179287a1bca8cc33a486a1be6935d21c19bee59be511dac3bfbb960",
+        "DomainClassificationLoss": "b731c9c7868a7962899a170a5fb534cd595cfd9098115c79e358068a66920c30",
+        "ProteinRepresentationLoss": "90110947ae5ed9387b3919e7cfee46e94b8ddd6c3051c63332fd56b709a3bcb5",
+        "GtConditionedFunctionLoss": "73f6eb5e45811d728e7b07e47c8c2bb6bf08938b07b4faff536864f9f418fabe"
+      },
+      "remote_source_sha256": "31174dd3387b0ae92aedf773012efe69d85a332687659dacbcc1095b9b8a8e4d"
+    },
+    {
+      "source": "code/mask_condition_ablation/evaluate_domain.py",
+      "target": "quasf/decoding.py",
+      "source_sha256": "878fef4ac78fe838e3fa20c0a741334f2a53dd155a858a9af77b03903387b849",
+      "definitions": {
+        "mask_iou": "3eba68f318d2d27cafd19943759bbf2cf98c5bfc3aa63e0f7eecf28a553b929e",
+        "apply_query_aware_to_mask_logits": "ba45da62a8222f812ac92df1ca2d2c36d72ab6d27fe761cee8578b5ec351849a",
+        "iou_1d": "1c79c3290d8286870b90da179a60355b615f42884802c4edc5a0a50ea5e59a48",
+        "cover_ratio": "776903498b14f056f755111210ebb2aeab269a1d95043e0ee969daff8bf74f50",
+        "nms_1d_strict": "0098e62cddc4989a8ec2f9c96f2b01a415f3e94b2c62524e55554f6e0d3e7d5b",
+        "merge_intervals_strict": "789de270a2f53584d3413c6b24f9a784b80b03a6340600c58c8674d24947f3fd",
+        "iterative_merge": "41bdc00f0af151af595ea8289de885924091c17f2d778a296802c22d3e30046d",
+        "extract_intervals_from_mask": "a8113bcde3acaa9170cf8c6a89149001243c7eff0ef5010f4c0802bef708d8a2",
+        "apply_nms_merge_to_mask_logits": "af0be17a5c78966a0ce5a308959ba6258bd4c40b3b60116f2dd9dc7333f41b75",
+        "evaluate_single_protein": "95e9f917251a44413b5fc97334786dc248f824b47b598a88e7c9ef887035dcc2",
+        "_extract_boundaries": "fdd308bd93cab088a19c6628e9cf6f0650eb9a9c2c2691fbae4777b9bbabe433"
+      },
+      "remote_source_sha256": "878fef4ac78fe838e3fa20c0a741334f2a53dd155a858a9af77b03903387b849"
+    },
+    {
+      "source": "code/mask_condition_ablation/lightning_module.py",
+      "target": "quasf/lightning_module.py",
+      "source_sha256": "c9c76bbb3856c665679cd49d9c7a7265c4e37f19edae02f8c950e28658eae361",
+      "definitions": {
+        "compute_fmax": "0c9e8978ef0a288aba453a1796adf3981cf21bfacef36e07dcf0e3646ba7d720",
+        "DualQueryLightning": "3c59b73d1f6ab07c58276b4faee524b4590e4c396c5392a63e439178d50f5a15"
+      },
+      "remote_source_sha256": "c9c76bbb3856c665679cd49d9c7a7265c4e37f19edae02f8c950e28658eae361"
+    },
+    {
+      "source": "archive/pre-paper-only-20260930/code/segmentation_decode_ablation/common.py",
+      "target": "quasf/common.py",
+      "source_sha256": "d4efa42d64be70413a9aa5d5634c0f6c0099577765bb4c68779a50f89eb7ad27",
+      "definitions": {
+        "read_json": "0d27f13b50b6af41796609f140c63d4ed3fb62c68fa9953e9cf89da58b21b143",
+        "write_json": "c5b490170cbac6a09c09e550d469ff908657f9fbe1d602d640b502a2b942a5c4",
+        "sha256": "980bf86e6c22b14fc167d0383734ea771c627207bad2ace47c559930f8e079f9",
+        "source_hashes": "dcf7ce10de5c615b3cd497238ad44bf69b300aedf9fe8144bdfc322059c72aa9",
+        "resolve": "2ecc950b38b90a920c3213345c3ba442c3ae2d4735ee0bc5d84d2013241cacdd",
+        "runs": "91b0db15175d2a3becdd918bb18798b743b9193d01d98768bb13d0758507e49e"
+      },
+      "remote_source_sha256": "d4efa42d64be70413a9aa5d5634c0f6c0099577765bb4c68779a50f89eb7ad27"
+    },
+    {
+      "source": "archive/pre-paper-only-20260930/code/segmentation_decode_ablation/decoders.py",
+      "target": "quasf/decoders.py",
+      "source_sha256": "44f509d7bd49fcd9329438bae8e449bdd8d4f231ccab44087771f7c70528e139",
+      "definitions": {
+        "Prediction": "30e3f5f76ef0b941962b5867d0d46511d40db7f8dea4707584ae4e55c7aa4921",
+        "overlap": "3ffe9c82432e154c56cc860f16ba8b4e6d7c23a698618766654816f613cdaceb",
+        "interval_iou": "e4023538f9e1690a6592c07e408b85181e0cbd5bb2dd53429fe60bb4b906423b",
+        "cover": "1c77adf6cb2bf8b4dc7a9582a0236f5348597f5a31e4075e2ac2cd0d101c0a83",
+        "legacy_decode_labels": "92b41cf0bbb23b7a515ca2af11608e3991cecc40f16f2f821c30e39a27675f0c",
+        "decode": "737935bae2b1a0b7b323a4c30c7f6571701ad4d0b1809a34912c2cadc4c18854"
+      },
+      "remote_source_sha256": "44f509d7bd49fcd9329438bae8e449bdd8d4f231ccab44087771f7c70528e139"
+    },
+    {
+      "source": "archive/pre-paper-only-20260930/code/segmentation_decode_ablation/metrics.py",
+      "target": "quasf/metrics.py",
+      "source_sha256": "8a03ad62c68e71596270594d63604e5067933e3467b011a426886ee31c17787a",
+      "definitions": {
+        "iou_matrix": "43debf89157d34f30afa82f9fb61110440a88dd89c1d5de74a63e7826dd2abb4",
+        "matches": "49e8d0bdd6d98f8fd999f8ff89c2b07813d6a2db8d8e6e78c52fc4619f00f8f7",
+        "boundaries": "40a3639b7b4554171066c927ac3e69bee559ad036b0d5f25a3c555a0c28f6194",
+        "boundary_scores": "cf82bad4a9cd02bd2d509fe843d8b4a1c29a259fd1978f2abd194f2a6ea70b63",
+        "segmentation": "81b484f8bd53b2e466d5a491342e0fd7c1f90d00bb9fa3a597c7feba1a624aee",
+        "Fmax": "fd0832ee3c34c974bbb50136c257629c2f96ca513bf398f2da3f29fb28f91120",
+        "add_rf": "050d3b031cfc2a75e4198b003ebe63b5bf70c0ba278e693ca7cca60c4ab37e55"
+      },
+      "remote_source_sha256": "8a03ad62c68e71596270594d63604e5067933e3467b011a426886ee31c17787a"
+    },
+    {
+      "source": "code/joint_function_query/evaluate.py",
+      "target": "quasf/evaluate.py",
+      "source_sha256": "f61b3c5707a18cf5f75036eac4004472f25f938a01c32e844ad8cb3bc62ec684",
+      "definitions": {
+        "sha256": "c9ab943d0796192d9d23148df7fa31baba98f724066c05ba2415231f6bc90132",
+        "fixed_macro_f1": "da2ccaa9359db7955a6d608438ab0c59e55140025a5a01ac227950970875d52d"
+      },
+      "remote_source_sha256": "f61b3c5707a18cf5f75036eac4004472f25f938a01c32e844ad8cb3bc62ec684"
+    },
+    {
+      "source": "code/query_no_mlp_ablation/joint_model.py",
+      "target": "quasf/model.py",
+      "source_sha256": "cf1afd71a780be987c7d265de7ec27c6030ebcce03a5547b4550436091a63de6",
+      "definitions": {
+        "aggregate_queries": "00265235bbeb4c956c18562889b166465cf2622c3d0148dfe066f1f8b32d8a56"
+      }
+    },
+    {
+      "target": "quasf/model.py",
+      "source": "archive/pre-paper-only-20260930/quasf/model.py",
+      "source_sha256": "",
+      "definitions": {
+        "DirectFunctionQuery": "f287daa2c4ef8a6ef9ccf420bdfaa957ed61f106533c3d0531eabbc3bbff4297",
+        "BatchedJointFunctionQuery": "33a0dc800ae135f9884efe3958cf1a6c0a5a368923e862475026bfc85c14efc1"
+      }
+    },
+    {
+      "target": "quasf/train.py",
+      "source": "archive/pre-paper-only-20260930/quasf/train.py",
+      "source_sha256": "",
+      "definitions": {
+        "JointCurriculum": "2cff648e2787770acfa877c5d6c5f77bebecc56c8a33899b10ec45f16db6db67"
+      }
+    },
+    {
+      "target": "quasf/region_cache.py",
+      "source": "archive/pre-paper-only-20260930/quasf/region_cache.py",
+      "source_sha256": "",
+      "definitions": {
+        "iter_jsonl": "db1b2eee544efebe81f8effcecaa305c550eac5c4e67b1b31aa8ea33d6af5c2f",
+        "domain_indices": "df8c774a5fd71de6cd2b2fca46d76e88d76aa37f926937e7df6415608b39e32c",
+        "pooled_feature": "8f2401513aef9733ec5a7d0e5cd6839f9c262db41959ac69eddabb4f36f657bf",
+        "build_cache": "2b968ac1c7f3b9d88e4aed958d13295fe26f226cf534c8ca9eebd3bdc30c65c3",
+        "main": "a1067cfc8e61e243bf92c52be15f153c190b6de26fd94f751bcb2241ece08520"
+      }
+    }
+  ],
+  "remote_source_root": "/data/huyaxuan/code/region_function_multimodal",
+  "remote_release_root": "/data/huyaxuan/code/region_function_multimodal/release/QuaSF_20260928",
+  "current_release": "2026-09-30 pretrained direct query",
+  "promotion_policy": "New model definitions copied verbatim; historical definitions preserved. New CLI modules relocate imports and default to direct mode. Pretraining metadata no longer requires an unused MLP checkpoint.",
+  "cleanup_backup_tag": "archive/pre-paper-only-20260930",
+  "cleanup_backup_commit": "2b7494240a03395273c4cbd4b7199699817ff51a"
+}

@@ -1,0 +1,22 @@
+{
+  "accession": "A0A044RE18",
+  "independent_asset_root": "/data/huyaxuan/QuaSF_release_20261012/assets",
+  "strict_load": true,
+  "shapes": {
+    "region_masks": [
+      1,
+      4,
+      1495
+    ],
+    "region_logits": [
+      1,
+      4,
+      256
+    ],
+    "region_valid": [
+      1,
+      4
+    ]
+  },
+  "finite": true
+}

@@ -1,0 +1,687 @@
+{
+  "cohort": 9015,
+  "segmentation": {
+    "all": {
+      "QuaSF": {
+        "proteins": 9015,
+        "domains": 18546,
+        "predicted_domains": 24578,
+        "weighted_iou": 0.8330207559398892,
+        "mean_iou": 0.8556264838338278,
+        "count_accuracy": 0.604104270660011,
+        "weighted_boundary_mcc": 0.7976498669012579,
+        "matched_domains_iou05": 16408,
+        "precision_iou05": 0.6675889006428514,
+        "recall_iou05": 0.8847190768898954,
+        "f1_iou05": 0.76096837028105
+      },
+      "Chainsaw": {
+        "proteins": 9015,
+        "domains": 18546,
+        "predicted_domains": 19667,
+        "weighted_iou": 0.8624432169658877,
+        "mean_iou": 0.8771217867935245,
+        "count_accuracy": 0.7668330560177482,
+        "weighted_boundary_mcc": 0.7962228132772032,
+        "matched_domains_iou05": 17015,
+        "precision_iou05": 0.8651548278842731,
+        "recall_iou05": 0.9174485064164779,
+        "f1_iou05": 0.8905346348101432
+      },
+      "Merizo": {
+        "proteins": 9015,
+        "domains": 18546,
+        "predicted_domains": 19943,
+        "weighted_iou": 0.7881904998991331,
+        "mean_iou": 0.8126805895261577,
+        "count_accuracy": 0.6397115917914586,
+        "weighted_boundary_mcc": 0.5589877291535513,
+        "matched_domains_iou05": 15912,
+        "precision_iou05": 0.7978739407310836,
+        "recall_iou05": 0.857974765448075,
+        "f1_iou05": 0.8268336407804827
+      }
+    },
+    "untruncated": {
+      "QuaSF": {
+        "proteins": 9015,
+        "domains": 18546,
+        "predicted_domains": 24578,
+        "weighted_iou": 0.8330207559398892,
+        "mean_iou": 0.8556264838338278,
+        "count_accuracy": 0.604104270660011,
+        "weighted_boundary_mcc": 0.7976498669012579,
+        "matched_domains_iou05": 16408,
+        "precision_iou05": 0.6675889006428514,
+        "recall_iou05": 0.8847190768898954,
+        "f1_iou05": 0.76096837028105
+      },
+      "Chainsaw": {
+        "proteins": 9015,
+        "domains": 18546,
+        "predicted_domains": 19667,
+        "weighted_iou": 0.8624432169658877,
+        "mean_iou": 0.8771217867935245,
+        "count_accuracy": 0.7668330560177482,
+        "weighted_boundary_mcc": 0.7962228132772032,
+        "matched_domains_iou05": 17015,
+        "precision_iou05": 0.8651548278842731,
+        "recall_iou05": 0.9174485064164779,
+        "f1_iou05": 0.8905346348101432
+      },
+      "Merizo": {
+        "proteins": 9015,
+        "domains": 18546,
+        "predicted_domains": 19943,
+        "weighted_iou": 0.7881904998991331,
+        "mean_iou": 0.8126805895261577,
+        "count_accuracy": 0.6397115917914586,
+        "weighted_boundary_mcc": 0.5589877291535513,
+        "matched_domains_iou05": 15912,
+        "precision_iou05": 0.7978739407310836,
+        "recall_iou05": 0.857974765448075,
+        "f1_iou05": 0.8268336407804827
+      }
+    },
+    "multidomain": {
+      "QuaSF": {
+        "proteins": 5349,
+        "domains": 14880,
+        "predicted_domains": 19310,
+        "weighted_iou": 0.8165254351452647,
+        "mean_iou": 0.8306627611479764,
+        "count_accuracy": 0.5290708543653019,
+        "weighted_boundary_mcc": 0.8085636795397381,
+        "matched_domains_iou05": 12823,
+        "precision_iou05": 0.6640600725012946,
+        "recall_iou05": 0.8617607526881721,
+        "f1_iou05": 0.7501023691137759
+      },
+      "Chainsaw": {
+        "proteins": 5349,
+        "domains": 14880,
+        "predicted_domains": 14891,
+        "weighted_iou": 0.869883893768175,
+        "mean_iou": 0.8800098224913399,
+        "count_accuracy": 0.7870630024303609,
+        "weighted_boundary_mcc": 0.8106477736502701,
+        "matched_domains_iou05": 13460,
+        "precision_iou05": 0.9039016855818951,
+        "recall_iou05": 0.9045698924731183,
+        "f1_iou05": 0.9042356655805985
+      },
+      "Merizo": {
+        "proteins": 5349,
+        "domains": 14880,
+        "predicted_domains": 14071,
+        "weighted_iou": 0.8003364004560187,
+        "mean_iou": 0.8258446216107315,
+        "count_accuracy": 0.7240605720695457,
+        "weighted_boundary_mcc": 0.6173023577201608,
+        "matched_domains_iou05": 12466,
+        "precision_iou05": 0.8859356122521498,
+        "recall_iou05": 0.8377688172043011,
+        "f1_iou05": 0.8611792338779317
+      }
+    },
+    "discontinuous": {
+      "QuaSF": {
+        "proteins": 2088,
+        "domains": 5315,
+        "predicted_domains": 8368,
+        "weighted_iou": 0.7146915873837705,
+        "mean_iou": 0.7332566870074696,
+        "count_accuracy": 0.23180076628352492,
+        "weighted_boundary_mcc": 0.7251667938344255,
+        "matched_domains_iou05": 4184,
+        "precision_iou05": 0.5,
+        "recall_iou05": 0.787206020696143,
+        "f1_iou05": 0.6115617920046773
+      },
+      "Chainsaw": {
+        "proteins": 2088,
+        "domains": 5315,
+        "predicted_domains": 5575,
+        "weighted_iou": 0.803640689364465,
+        "mean_iou": 0.8166307147267017,
+        "count_accuracy": 0.6666666666666666,
+        "weighted_boundary_mcc": 0.6971213101510999,
+        "matched_domains_iou05": 4623,
+        "precision_iou05": 0.829237668161435,
+        "recall_iou05": 0.8698024459078081,
+        "f1_iou05": 0.8490358126721763
+      },
+      "Merizo": {
+        "proteins": 2088,
+        "domains": 5315,
+        "predicted_domains": 5266,
+        "weighted_iou": 0.7194014245259832,
+        "mean_iou": 0.7529156720237458,
+        "count_accuracy": 0.5771072796934866,
+        "weighted_boundary_mcc": 0.5978449498775001,
+        "matched_domains_iou05": 4080,
+        "precision_iou05": 0.7747816179263198,
+        "recall_iou05": 0.7676387582314205,
+        "f1_iou05": 0.7711936489934789
+      }
+    }
+  },
+  "paired_bootstrap": {
+    "all vs Chainsaw": {
+      "difference": -0.02942246102599838,
+      "ci95": [
+        -0.033409827302948156,
+        -0.02539644196008315
+      ]
+    },
+    "all vs Merizo": {
+      "difference": 0.044830256040756175,
+      "ci95": [
+        0.03969914172038596,
+        0.05000066973663383
+      ]
+    },
+    "untruncated vs Chainsaw": {
+      "difference": -0.02942246102599838,
+      "ci95": [
+        -0.033677445906800586,
+        -0.025300927927215534
+      ]
+    },
+    "untruncated vs Merizo": {
+      "difference": 0.044830256040756175,
+      "ci95": [
+        0.03953534237307858,
+        0.050065878157566565
+      ]
+    }
+  },
+  "length_audit": {
+    "truncated_proteins": 0
+  },
+  "heterogeneity": {
+    "full_reference_heterogeneous": 1376,
+    "historical_heterogeneous": 1376,
+    "remaining_heterogeneous": 1362,
+    "collapsed_to_one_annotated_component": 14,
+    "multiple_components_identical_labels": 0,
+    "original_domains": 3987,
+    "components": 4303,
+    "annotated_components": 3348,
+    "multi_source_components": 67,
+    "reference_labels": {
+      "components": 5606,
+      "identity": 5291
+    }
+  },
+  "table3_reproduction": {
+    "QuaSF": {
+      "matched": 3918,
+      "calls": 9149,
+      "correct": 5014
+    },
+    "Chainsaw": {
+      "matched": 3115,
+      "calls": 7278,
+      "correct": 4498
+    },
+    "Merizo": {
+      "matched": 1068,
+      "calls": 4597,
+      "correct": 1757
+    }
+  },
+  "functional_rankings": {
+    "components": {
+      "QuaSF": {
+        "eligible_regions": 3893,
+        "candidate_calls": 996608,
+        "reference_labels": 5606,
+        "budgets": [
+          {
+            "calls": 1000,
+            "expected_correct": 794.6666666666666,
+            "observed_precision": 0.7946666666666666,
+            "reference_recall": 0.14175288381496015,
+            "cutoff_score": 0.9991769194602966,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 2000,
+            "expected_correct": 1639.75,
+            "observed_precision": 0.819875,
+            "reference_recall": 0.2924991080984659,
+            "cutoff_score": 0.9976859092712402,
+            "cutoff_tie_size": 8
+          },
+          {
+            "calls": 4000,
+            "expected_correct": 3187.5,
+            "observed_precision": 0.796875,
+            "reference_recall": 0.5685872279700321,
+            "cutoff_score": 0.9943939447402954,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 5606,
+            "expected_correct": 3908.0,
+            "observed_precision": 0.6971102390296111,
+            "reference_recall": 0.6971102390296111,
+            "cutoff_score": 0.988520085811615,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 7278,
+            "expected_correct": 4494.333333333333,
+            "observed_precision": 0.6175231290647614,
+            "reference_recall": 0.8017005589249613,
+            "cutoff_score": 0.9737459421157837,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 9149,
+            "expected_correct": 5014.0,
+            "observed_precision": 0.5480380369439283,
+            "reference_recall": 0.8943988583660364,
+            "cutoff_score": 0.8901000022888184,
+            "cutoff_tie_size": 7
+          },
+          {
+            "calls": 12000,
+            "expected_correct": 5290.0,
+            "observed_precision": 0.44083333333333335,
+            "reference_recall": 0.9436318230467357,
+            "cutoff_score": 0.43125343322753906,
+            "cutoff_tie_size": 2
+          }
+        ]
+      },
+      "Chainsaw": {
+        "eligible_regions": 2954,
+        "candidate_calls": 756224,
+        "reference_labels": 5606,
+        "budgets": [
+          {
+            "calls": 1000,
+            "expected_correct": 865.0,
+            "observed_precision": 0.865,
+            "reference_recall": 0.15429896539422047,
+            "cutoff_score": 0.9708694219589233,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 2000,
+            "expected_correct": 1568.5,
+            "observed_precision": 0.78425,
+            "reference_recall": 0.2797895112379593,
+            "cutoff_score": 0.949907124042511,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 4000,
+            "expected_correct": 2987.0,
+            "observed_precision": 0.74675,
+            "reference_recall": 0.5328219764537995,
+            "cutoff_score": 0.8765465021133423,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 5606,
+            "expected_correct": 3841.5,
+            "observed_precision": 0.6852479486264716,
+            "reference_recall": 0.6852479486264716,
+            "cutoff_score": 0.7418614625930786,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 7278,
+            "expected_correct": 4498.0,
+            "observed_precision": 0.6180269304754054,
+            "reference_recall": 0.8023546200499465,
+            "cutoff_score": 0.3102863132953644,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 9149,
+            "expected_correct": 4605.0,
+            "observed_precision": 0.5033336976718767,
+            "reference_recall": 0.8214413128790582,
+            "cutoff_score": 0.11364097893238068,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 12000,
+            "expected_correct": 4623.0,
+            "observed_precision": 0.38525,
+            "reference_recall": 0.8246521584017125,
+            "cutoff_score": 0.07449553906917572,
+            "cutoff_tie_size": 3
+          }
+        ]
+      },
+      "Merizo": {
+        "eligible_regions": 1757,
+        "candidate_calls": 449792,
+        "reference_labels": 5606,
+        "budgets": [
+          {
+            "calls": 1000,
+            "expected_correct": 483.0,
+            "observed_precision": 0.483,
+            "reference_recall": 0.08615768819122369,
+            "cutoff_score": 0.9572078585624695,
+            "cutoff_tie_size": 1
+          },
+          {
+            "calls": 2000,
+            "expected_correct": 914.3333333333334,
+            "observed_precision": 0.45716666666666667,
+            "reference_recall": 0.16309906053038412,
+            "cutoff_score": 0.9018893241882324,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 4000,
+            "expected_correct": 1639.0,
+            "observed_precision": 0.40975,
+            "reference_recall": 0.2923653228683553,
+            "cutoff_score": 0.48956945538520813,
+            "cutoff_tie_size": 1
+          },
+          {
+            "calls": 5606,
+            "expected_correct": 1785.0,
+            "observed_precision": 0.318408847663218,
+            "reference_recall": 0.318408847663218,
+            "cutoff_score": 0.11122380942106247,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 7278,
+            "expected_correct": 1789.0,
+            "observed_precision": 0.24580928826600715,
+            "reference_recall": 0.3191223688904745,
+            "cutoff_score": 0.07543949037790298,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 9149,
+            "expected_correct": 1792.0,
+            "observed_precision": 0.19586840091813312,
+            "reference_recall": 0.3196575098109169,
+            "cutoff_score": 0.05915343388915062,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 12000,
+            "expected_correct": 1794.0,
+            "observed_precision": 0.1495,
+            "reference_recall": 0.3200142704245451,
+            "cutoff_score": 0.04663943871855736,
+            "cutoff_tie_size": 1
+          }
+        ]
+      }
+    },
+    "identity": {
+      "QuaSF": {
+        "eligible_regions": 3921,
+        "candidate_calls": 1003776,
+        "reference_labels": 5291,
+        "budgets": [
+          {
+            "calls": 1000,
+            "expected_correct": 696.0,
+            "observed_precision": 0.696,
+            "reference_recall": 0.13154413154413155,
+            "cutoff_score": 0.9991809725761414,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 2000,
+            "expected_correct": 1511.25,
+            "observed_precision": 0.755625,
+            "reference_recall": 0.2856265356265356,
+            "cutoff_score": 0.9976859092712402,
+            "cutoff_tie_size": 8
+          },
+          {
+            "calls": 4000,
+            "expected_correct": 3028.3333333333335,
+            "observed_precision": 0.7570833333333333,
+            "reference_recall": 0.5723555723555724,
+            "cutoff_score": 0.9944286346435547,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 5291,
+            "expected_correct": 3606.0,
+            "observed_precision": 0.6815346815346816,
+            "reference_recall": 0.6815346815346816,
+            "cutoff_score": 0.9900774955749512,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 5606,
+            "expected_correct": 3728.5,
+            "observed_precision": 0.6650909739564752,
+            "reference_recall": 0.7046872046872047,
+            "cutoff_score": 0.9886321425437927,
+            "cutoff_tie_size": 4
+          },
+          {
+            "calls": 7278,
+            "expected_correct": 4294.5,
+            "observed_precision": 0.5900659521846661,
+            "reference_recall": 0.8116613116613116,
+            "cutoff_score": 0.9744541645050049,
+            "cutoff_tie_size": 4
+          },
+          {
+            "calls": 9149,
+            "expected_correct": 4787.0,
+            "observed_precision": 0.5232265821401246,
+            "reference_recall": 0.9047439047439048,
+            "cutoff_score": 0.897922933101654,
+            "cutoff_tie_size": 4
+          },
+          {
+            "calls": 12000,
+            "expected_correct": 5057.0,
+            "observed_precision": 0.42141666666666666,
+            "reference_recall": 0.9557739557739557,
+            "cutoff_score": 0.43821313977241516,
+            "cutoff_tie_size": 3
+          }
+        ]
+      },
+      "Chainsaw": {
+        "eligible_regions": 3198,
+        "candidate_calls": 818688,
+        "reference_labels": 5291,
+        "budgets": [
+          {
+            "calls": 1000,
+            "expected_correct": 862.3333333333334,
+            "observed_precision": 0.8623333333333334,
+            "reference_recall": 0.162981162981163,
+            "cutoff_score": 0.9735311269760132,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 2000,
+            "expected_correct": 1541.5,
+            "observed_precision": 0.77075,
+            "reference_recall": 0.29134379134379135,
+            "cutoff_score": 0.9567103981971741,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 4000,
+            "expected_correct": 3000.6666666666665,
+            "observed_precision": 0.7501666666666666,
+            "reference_recall": 0.5671265671265671,
+            "cutoff_score": 0.8940430283546448,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 5291,
+            "expected_correct": 3843.5,
+            "observed_precision": 0.7264222264222264,
+            "reference_recall": 0.7264222264222264,
+            "cutoff_score": 0.8213362693786621,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 5606,
+            "expected_correct": 4002.5,
+            "observed_precision": 0.7139671780235461,
+            "reference_recall": 0.7564732564732565,
+            "cutoff_score": 0.7991109490394592,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 7278,
+            "expected_correct": 4793.666666666667,
+            "observed_precision": 0.6586516442246039,
+            "reference_recall": 0.906003906003906,
+            "cutoff_score": 0.5000280737876892,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 9149,
+            "expected_correct": 5086.0,
+            "observed_precision": 0.5559077494808176,
+            "reference_recall": 0.9612549612549612,
+            "cutoff_score": 0.1310248225927353,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 12000,
+            "expected_correct": 5110.0,
+            "observed_precision": 0.42583333333333334,
+            "reference_recall": 0.9657909657909658,
+            "cutoff_score": 0.08019042015075684,
+            "cutoff_tie_size": 3
+          }
+        ]
+      },
+      "Merizo": {
+        "eligible_regions": 3157,
+        "candidate_calls": 808192,
+        "reference_labels": 5291,
+        "budgets": [
+          {
+            "calls": 1000,
+            "expected_correct": 863.0,
+            "observed_precision": 0.863,
+            "reference_recall": 0.1631071631071631,
+            "cutoff_score": 0.9735065698623657,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 2000,
+            "expected_correct": 1543.0,
+            "observed_precision": 0.7715,
+            "reference_recall": 0.2916272916272916,
+            "cutoff_score": 0.9567103981971741,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 4000,
+            "expected_correct": 2991.0,
+            "observed_precision": 0.74775,
+            "reference_recall": 0.5652995652995653,
+            "cutoff_score": 0.8921951651573181,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 5291,
+            "expected_correct": 3808.0,
+            "observed_precision": 0.7197127197127197,
+            "reference_recall": 0.7197127197127197,
+            "cutoff_score": 0.8161552548408508,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 5606,
+            "expected_correct": 3968.0,
+            "observed_precision": 0.7078130574384588,
+            "reference_recall": 0.74995274995275,
+            "cutoff_score": 0.7905405759811401,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 7278,
+            "expected_correct": 4712.333333333333,
+            "observed_precision": 0.6474764129339562,
+            "reference_recall": 0.8906318906318905,
+            "cutoff_score": 0.45003560185432434,
+            "cutoff_tie_size": 3
+          },
+          {
+            "calls": 9149,
+            "expected_correct": 4906.0,
+            "observed_precision": 0.5362334681385944,
+            "reference_recall": 0.9272349272349273,
+            "cutoff_score": 0.12395146489143372,
+            "cutoff_tie_size": 2
+          },
+          {
+            "calls": 12000,
+            "expected_correct": 4927.0,
+            "observed_precision": 0.41058333333333336,
+            "reference_recall": 0.9312039312039312,
+            "cutoff_score": 0.07853977382183075,
+            "cutoff_tie_size": 2
+          }
+        ]
+      }
+    }
+  },
+  "protocol": {
+    "segmentation": "Complete original reference domain masks; official prediction identities retained; maximum-total-IoU matching; reference-length weights within proteins and GT-union length between proteins. No retuning. Full and untruncated cohorts reported.",
+    "functional": "Same historical heterogeneous cohort; reference identity and historical continuous components scored separately. IoU>=0.5 max cardinality then max total IoU. Unknown matched regions excluded; unmatched predictions count as calls without observed support. Same global top-K budget for each method; ties evaluated by expected correct count under uniform tie breaking.",
+    "uncertainty": "2000 paired protein bootstrap resamples for segmentation. Fixed-budget functional results are descriptive, not independently validated thresholds.",
+    "source_cache": {
+      "signature": {
+        "format": 1,
+        "checkpoint": "/geniusland/home/huyaxuan/code/region_function_multimodal/code/e2e_domain_cls_dual_query_v2_fix/runs/v2_fix_tri30_20260823_212449/checkpoints/best_tri-epoch=15-val_tri_score=0.786391.ckpt",
+        "checkpoint_sha256": "1490dfe600b3efb3e39313a16522253b457e46a9d121bd41995207dd056bc046",
+        "dataset": "/geniusland/home/huyaxuan/code/region_function_old/data/dataset_v2/end_to_end_domain_function_v1/test_common9015.jsonl",
+        "dataset_sha256": "2f214781be555976e359d54a8ec76f8f27c6f4e71c02bbe222bfe91c38dfeb92",
+        "model_source": {
+          "dataset.py": "af726fd131a8b565ea1312d7b9c0e7bc9aa286738952c8b26b710212c7fef054",
+          "e2e_sweep.py": "026ec06676bef8d5ee1eceff95a6b0ad73d57c6b862055b1dfb9a4fee996a727",
+          "e2e_sweep_v2.py": "933f8298c6f57d2cee8220638831fd83e94c9b1709eea5b234fdbd0626729de1",
+          "evaluate_domain.py": "878fef4ac78fe838e3fa20c0a741334f2a53dd155a858a9af77b03903387b849",
+          "final_eval_v2.py": "6ca5a5c462106f4a1851ac96e292ff80360c88c0a84f2f873593d33723e27701",
+          "final_inference.py": "e7aee645559733e058a4644dd6fa1ac814a6ea6a248119d2c1f76746ea143154",
+          "lightning_module.py": "f872696d1555c606c86dd35f20ee07991fd0af308990fd00dd1a6eaff797010b",
+          "loss.py": "31174dd3387b0ae92aedf773012efe69d85a332687659dacbcc1095b9b8a8e4d",
+          "model.py": "4cad1cd0dd138c99fe6fa7e10788bf8f806a96eaa5c0edd480ac6a3e3b05bf25",
+          "show_unknown.py": "04f2e437097f744ba3390f1f5295c2981d5928c88c20e8d70cc8c8e9fdccd336",
+          "train.py": "e1b54f85c542e40ea836d8ebb72e3aaec1426f0d6f5c1eb38041b5e4925a4ffe"
+        },
+        "cache_code_sha256": "0a061e4ffe3aa89134b34a20a4e0475f62527a79ec163155df0f0a36388d85cd",
+        "max_len": 1495,
+        "num_classes": 256,
+        "precision": "float32",
+        "data_root": "/geniusland/home/huyaxuan/code/region_function_old",
+        "esm_feature_root": null,
+        "split": "test",
+        "seed": 42,
+        "device": "cuda:0",
+        "torch": "2.4.0+cu121",
+        "numpy": "1.26.4",
+        "limit": null,
+        "count": 9015,
+        "cohort_sha256": "5697f99794ef1ac3d13e86f9a7f17c883344c2b815e47fa70ad6cb668eff7249"
+      },
+      "complete": true,
+      "index_sha256": "5c1ef2e407732b302af9b3376889e6807a729f5de3aa2c9350fcdd897a83cdd2"
+    },
+    "script_sha256": "875846a50a8500878367e7526beb8396ebb29e42c08a53bb94b449a44d54ef07",
+    "elapsed_seconds": 120.05824422836304
+  }
+}

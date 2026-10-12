@@ -1,0 +1,21 @@
+{
+  "cohort": 1376,
+  "reference_components": 4303,
+  "reference_region_labels": 5606,
+  "recovered_components_iou05": 3947,
+  "eligible_prediction_regions": 4015,
+  "candidate_calls": 1027840,
+  "fixed_budget_9149": {
+    "calls": 9149,
+    "expected_correct": 5326.0,
+    "cutoff_score": 0.013636835850775242,
+    "cutoff_tie_size": 62
+  },
+  "validation_fixed_threshold": 0.27,
+  "threshold_calls": 6716,
+  "threshold_correct": 5188,
+  "source_sha256": "c9fc6e69b82f5dd9028bd6d2999865ee4f11b5209c7a6b5be6c4169c43bc6f72",
+  "predictions_sha256": "2594180e67b8659655aeceff19737654f8402ecbd04b8f06d178e296802c91f7",
+  "cohort_sha256": "1b4ef18221138efb0e5249ef120355aeb8c2e18def17494cc938ebb81f822787",
+  "script_sha256": "fcc8ecffb76d4557870ac5c8d85863cea0c4d54a5b5dd830fcc977b7d6f6cdb0"
+}

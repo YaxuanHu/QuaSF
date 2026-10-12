@@ -1,0 +1,2 @@
+# Optional: generate frozen ESM2 features instead of using recorded caches.
+fair-esm>=2.0.0,<3

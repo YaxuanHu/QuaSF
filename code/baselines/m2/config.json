@@ -1,0 +1,16 @@
+{
+  "stage": "M2",
+  "experiment_id": "m2_seed42",
+  "run_group": "protein_level",
+  "variant": "protein_level",
+  "model_type": "protein",
+  "function_metrics": true,
+  "seed": 42,
+  "max_epochs": 60,
+  "num_queries": 8,
+  "num_dn_queries": 4,
+  "task_loss_weight": 10.0,
+  "dn_loss_weight": 1.0,
+  "domain_sel_loss_weight": 0.5,
+  "data_dir": "/geniusland/home/huyaxuan/code/region_function_old/data/dataset_v2/end_to_end_domain_function_v1"
+}

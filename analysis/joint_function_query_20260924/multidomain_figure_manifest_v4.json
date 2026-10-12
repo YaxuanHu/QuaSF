@@ -1,0 +1,552 @@
+[
+  {
+    "accession": "Q7SDR1",
+    "protein_length": 390,
+    "region_count": 2,
+    "regions": [
+      {
+        "region": 1,
+        "reference_segments": [
+          [
+            23,
+            54
+          ]
+        ],
+        "predicted_segments": [
+          [
+            20,
+            54
+          ]
+        ],
+        "label_index": 4,
+        "function": "Cellulose binding",
+        "score": 0.9999573230743408,
+        "IoU": 0.9411764705882353,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0030248",
+            "go_name": "cellulose binding",
+            "level_2_cluster_id": "C2_004",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#428C90",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      },
+      {
+        "region": 2,
+        "reference_segments": [
+          [
+            91,
+            389
+          ]
+        ],
+        "predicted_segments": [
+          [
+            89,
+            387
+          ]
+        ],
+        "label_index": 113,
+        "function": "O-glycosyl hydrolase",
+        "score": 0.9997219443321228,
+        "IoU": 0.99,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0004553",
+            "go_name": "hydrolase activity, hydrolyzing O-glycosyl compounds",
+            "level_2_cluster_id": "C2_113",
+            "level_1_cluster_id": "C1_26",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#D6814F",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      }
+    ],
+    "source_split": "test",
+    "prediction_archive": "evaluation/test_epoch0/per_protein.jsonl"
+  },
+  {
+    "accession": "A1L0T0",
+    "protein_length": 632,
+    "region_count": 3,
+    "regions": [
+      {
+        "region": 1,
+        "reference_segments": [
+          [
+            55,
+            250
+          ]
+        ],
+        "predicted_segments": [
+          [
+            52,
+            223
+          ]
+        ],
+        "label_index": 7,
+        "function": "TPP binding",
+        "score": 0.999987006187439,
+        "IoU": 0.8535353535353535,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0030976",
+            "go_name": "thiamine pyrophosphate binding",
+            "level_2_cluster_id": "C2_007",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#7A78AE",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      },
+      {
+        "region": 2,
+        "reference_segments": [
+          [
+            271,
+            422
+          ]
+        ],
+        "predicted_segments": [
+          [
+            269,
+            414
+          ]
+        ],
+        "label_index": 34,
+        "function": "Mg ion binding",
+        "score": 0.971563994884491,
+        "IoU": 0.9411764705882353,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0000287",
+            "go_name": "magnesium ion binding",
+            "level_2_cluster_id": "C2_034",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          },
+          {
+            "go_id": "GO:0030976",
+            "go_name": "thiamine pyrophosphate binding",
+            "level_2_cluster_id": "C2_007",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#428C90",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      },
+      {
+        "region": 3,
+        "reference_segments": [
+          [
+            440,
+            620
+          ]
+        ],
+        "predicted_segments": [
+          [
+            441,
+            620
+          ]
+        ],
+        "label_index": 87,
+        "function": "Catalytic activity",
+        "score": 0.9990890026092529,
+        "IoU": 0.988950276243094,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0003824",
+            "go_name": "catalytic activity",
+            "level_2_cluster_id": "C2_087",
+            "level_1_cluster_id": "C1_00",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          },
+          {
+            "go_id": "GO:0030976",
+            "go_name": "thiamine pyrophosphate binding",
+            "level_2_cluster_id": "C2_007",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#D6814F",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      }
+    ],
+    "source_split": "test",
+    "prediction_archive": "evaluation/test_epoch0/per_protein.jsonl"
+  },
+  {
+    "accession": "A9KIG5",
+    "protein_length": 577,
+    "region_count": 4,
+    "regions": [
+      {
+        "region": 1,
+        "reference_segments": [
+          [
+            2,
+            101
+          ]
+        ],
+        "predicted_segments": [
+          [
+            28,
+            95
+          ]
+        ],
+        "label_index": 34,
+        "function": "Zn ion binding",
+        "score": 0.9997219443321228,
+        "IoU": 0.67,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0004176",
+            "go_name": "ATP-dependent peptidase activity",
+            "level_2_cluster_id": "C2_077",
+            "level_1_cluster_id": "C1_00",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          },
+          {
+            "go_id": "GO:0004222",
+            "go_name": "metalloendopeptidase activity",
+            "level_2_cluster_id": "C2_077",
+            "level_1_cluster_id": "C1_00",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          },
+          {
+            "go_id": "GO:0005524",
+            "go_name": "ATP binding",
+            "level_2_cluster_id": "C2_018",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          },
+          {
+            "go_id": "GO:0008270",
+            "go_name": "zinc ion binding",
+            "level_2_cluster_id": "C2_034",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#428C90",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      },
+      {
+        "region": 2,
+        "reference_segments": [
+          [
+            146,
+            313
+          ]
+        ],
+        "predicted_segments": [
+          [
+            142,
+            313
+          ]
+        ],
+        "label_index": 22,
+        "function": "ATP hydrolysis",
+        "score": 0.9999979734420776,
+        "IoU": 0.9824561403508771,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0005524",
+            "go_name": "ATP binding",
+            "level_2_cluster_id": "C2_018",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          },
+          {
+            "go_id": "GO:0016887",
+            "go_name": "ATP hydrolysis activity",
+            "level_2_cluster_id": "C2_022",
+            "level_1_cluster_id": "C1_03",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#D6814F",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      },
+      {
+        "region": 3,
+        "reference_segments": [
+          [
+            319,
+            389
+          ]
+        ],
+        "predicted_segments": [
+          [
+            318,
+            389
+          ]
+        ],
+        "label_index": 18,
+        "function": "ATP binding",
+        "score": 0.9998977184295654,
+        "IoU": 1.0,
+        "source_go_labels": [],
+        "color": "#7A78AE",
+        "annotation_support": false,
+        "marker": "open_diamond"
+      },
+      {
+        "region": 4,
+        "reference_segments": [
+          [
+            401,
+            577
+          ]
+        ],
+        "predicted_segments": [
+          [
+            400,
+            574
+          ]
+        ],
+        "label_index": 77,
+        "function": "Peptidase activity",
+        "score": 0.9997040629386902,
+        "IoU": 0.9830508474576272,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0004176",
+            "go_name": "ATP-dependent peptidase activity",
+            "level_2_cluster_id": "C2_077",
+            "level_1_cluster_id": "C1_00",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          },
+          {
+            "go_id": "GO:0004222",
+            "go_name": "metalloendopeptidase activity",
+            "level_2_cluster_id": "C2_077",
+            "level_1_cluster_id": "C1_00",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          },
+          {
+            "go_id": "GO:0005524",
+            "go_name": "ATP binding",
+            "level_2_cluster_id": "C2_018",
+            "level_1_cluster_id": "C1_22",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#AB7392",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      }
+    ],
+    "source_split": "test",
+    "prediction_archive": "evaluation/test_epoch0/per_protein.jsonl"
+  },
+  {
+    "accession": "Q7SIG6",
+    "protein_length": 958,
+    "region_count": 5,
+    "regions": [
+      {
+        "region": 1,
+        "reference_segments": [
+          [
+            8,
+            257
+          ]
+        ],
+        "predicted_segments": [
+          [
+            23,
+            263
+          ]
+        ],
+        "label_index": 14,
+        "function": "Protein binding",
+        "score": 0.9353464841842651,
+        "IoU": 0.9140625,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0005515",
+            "go_name": "protein binding",
+            "level_2_cluster_id": "C2_014",
+            "level_1_cluster_id": "C1_24",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#428C90",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      },
+      {
+        "region": 2,
+        "reference_segments": [
+          [
+            308,
+            408
+          ]
+        ],
+        "predicted_segments": [
+          [
+            309,
+            408
+          ]
+        ],
+        "label_index": 14,
+        "function": "Protein binding",
+        "score": 0.9995694756507874,
+        "IoU": 0.9801980198019802,
+        "source_go_labels": [],
+        "color": "#AB7392",
+        "annotation_support": false,
+        "marker": "open_diamond"
+      },
+      {
+        "region": 3,
+        "reference_segments": [
+          [
+            415,
+            541
+          ]
+        ],
+        "predicted_segments": [
+          [
+            419,
+            535
+          ]
+        ],
+        "label_index": 62,
+        "function": "GTPase activator",
+        "score": 0.9992678761482239,
+        "IoU": 0.9133858267716536,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0005096",
+            "go_name": "GTPase activator activity",
+            "level_2_cluster_id": "C2_062",
+            "level_1_cluster_id": "C1_25",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#D6814F",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      },
+      {
+        "region": 4,
+        "reference_segments": [
+          [
+            544,
+            695
+          ]
+        ],
+        "predicted_segments": [
+          [
+            536,
+            686
+          ]
+        ],
+        "label_index": 14,
+        "function": "Protein binding",
+        "score": 0.9999151229858398,
+        "IoU": 0.89937106918239,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0005515",
+            "go_name": "protein binding",
+            "level_2_cluster_id": "C2_014",
+            "level_1_cluster_id": "C1_24",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#7A78AE",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      },
+      {
+        "region": 5,
+        "reference_segments": [
+          [
+            901,
+            957
+          ]
+        ],
+        "predicted_segments": [
+          [
+            899,
+            957
+          ]
+        ],
+        "label_index": 14,
+        "function": "Protein binding",
+        "score": 0.9999980926513672,
+        "IoU": 0.9827586206896551,
+        "source_go_labels": [
+          {
+            "go_id": "GO:0005515",
+            "go_name": "protein binding",
+            "level_2_cluster_id": "C2_014",
+            "level_1_cluster_id": "C1_24",
+            "confidence_tier": 1,
+            "mapping_path": "Pfam-A-region->Pfam2GO(InterPro-supplied)->TED-segment-union",
+            "support_count": 1
+          }
+        ],
+        "color": "#4D985E",
+        "annotation_support": true,
+        "marker": "filled_circle"
+      }
+    ],
+    "source_split": "test",
+    "prediction_archive": "evaluation/test_epoch0/per_protein.jsonl"
+  }
+]

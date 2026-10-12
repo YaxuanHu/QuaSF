@@ -1,0 +1,32 @@
+{
+  "model": "BatchedJointFunctionQuery",
+  "checkpoint": "epoch=0-step=564.ckpt",
+  "checkpoint_sha256": "d355049c93c8a94fab9fd5c78772edf8053e7593b3f7b2494a75607bd4c381fe",
+  "seed": 42,
+  "epochs": 6,
+  "warmup_epochs": 1,
+  "global_batch": 128,
+  "mask_threshold": 0.3,
+  "region_function_threshold": 0.27,
+  "threshold_source": "unified validation",
+  "max_len": 1495,
+  "num_classes": 256,
+  "features": "original server220 ESM2 test features esm_features_test_v2",
+  "splits": {
+    "train": 72107,
+    "val": 9014,
+    "test": 9017
+  },
+  "function_query": "DirectFunctionQuery",
+  "mode": "direct",
+  "checkpoint_path": "/data/huyaxuan/code/region_function_multimodal/output/query_no_mlp_joint_20260928_b32_batched/direct/checkpoints/epoch=0-step=564.ckpt",
+  "reference_query_pretraining_epochs": 12,
+  "devices": 4,
+  "batch_per_gpu": 32,
+  "evaluation_batch_per_gpu": 8,
+  "regional_mlp": false,
+  "query_checkpoint": "output/query_no_mlp_ablation_20260928/direct/best.pt",
+  "query_checkpoint_sha256": "a9e923fdd1765a473507f5a1118fab66182d3178adc8b05cb3d0531e3c2fbea0",
+  "mask_checkpoint_sha256": "736acb36b8f9c417abff5d8afe612081e779119b20d243c348c267c94fa52c33",
+  "strict_test_f1": 0.48679821495426645
+}

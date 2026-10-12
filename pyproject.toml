@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quasf"
+version = "0.2.0"
+description = "QuaSF protein regional segmentation and function assignment"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[project.scripts]
+quasf-pretrain = "quasf.pretrain:main"
+quasf-train = "quasf.paper_train:main"
+quasf-evaluate = "quasf.paper_evaluate:main"
+
+[tool.setuptools]
+packages = ["quasf"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

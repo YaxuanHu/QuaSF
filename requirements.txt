@@ -1,0 +1,7 @@
+# Versions recorded from the paper runtime on server220.
+# Install torch's CUDA build separately for your machine (paper: 2.5.0+cu124).
+torch==2.5.0
+pytorch-lightning==2.6.5
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
