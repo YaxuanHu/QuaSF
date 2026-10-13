@@ -1,5 +1,7 @@
 # Paper baselines
 
+Installation: [../../INSTALL.md](../../INSTALL.md). Dependency inventory: [DEPENDENCIES.md](../../DEPENDENCIES.md). From the repository root, install the core package, then `python -m pip install -r requirements-baselines.txt`. Method-specific external tools/assets are listed in the inventory.
+
 Chainsaw official inference: run_official_chainsaw.py + chainsaw-main/.
 Merizo official inference: run_official_merizo.py + merizo/predict.py + merizo/model/.
 EguchiCNN: EguchiCNN/ model, trainer, cached-feature converters and evaluators.

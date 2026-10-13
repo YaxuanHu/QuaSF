@@ -1,0 +1,5 @@
+# Optional paper figure generation/auditing, additional to requirements.txt.
+# Direct dependencies; not a claim of a fully tested optional environment.
+matplotlib>=3.7,<4
+Pillow>=10,<13
+PyMuPDF>=1.24,<2

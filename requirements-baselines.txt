@@ -1,0 +1,15 @@
+# Optional third-party baseline Python dependencies, additional to requirements.txt.
+# STRIDE/PyMOL and baseline weights are external; see DEPENDENCIES.md.
+# Version ranges are installation constraints, not recovered paper versions.
+pandas>=2.2,<3
+biopython>=1.81,<2
+h5py>=3.11,<4
+einops>=0.7,<1
+natsort>=8,<9
+networkx>=3.2,<4
+pydantic>=2,<3
+click>=8,<9
+requests>=2.31,<3
+tqdm>=4.66,<5
+rotary-embedding-torch==0.6.5
+matplotlib>=3.7,<4

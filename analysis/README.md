@@ -1,5 +1,7 @@
 # Paper experiments
 
+Installation: [../INSTALL.md](../INSTALL.md). Dependency inventory: [DEPENDENCIES.md](../DEPENDENCIES.md). From the repository root, install the core package, then `python -m pip install -r requirements-analysis.txt`. Method-specific external tools/assets are listed in the inventory.
+
 Table 1: joint_function_query_20260924/rescore_restored_localization_table.py
 accepts --predictions (merged direct JSONL), --source (original test JSONL),
 --output, and repeated --baseline NAME=CSV. It requires the fixed 9015 cohort;

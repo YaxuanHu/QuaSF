@@ -4,6 +4,10 @@
 
 QuaSF predicts protein regions and assigns a separate function query to each final region, using frozen ESM2 residue features. This repository contains the paper model, training/evaluation code, paper baselines, and figure/metric provenance. The October 12 release includes the Region MLP comparison and P43561 case in the current manuscript.
 
+## Installation and dependencies / 安装与依赖
+
+完整安装指南见 [INSTALL.md](INSTALL.md)，全部直接软件依赖及可选外部工具见 [DEPENDENCIES.md](DEPENDENCIES.md)。支持使用 pip 从本仓库源码安装；当前不宣称已发布到 PyPI 或 Bioconda。
+
 ## 四条蛋白质快速开始 / Four-protein CPU demo
 
 测试论文最后一张结构图中的 **Q7SDR1、A1L0T0、A9KIG5、Q7SIG6**。提供四条完整序列及对应 ESM 特征；下载三个发布权重后即可在 CPU 上实际推理，无需 GPU、训练数据或完整测试集。

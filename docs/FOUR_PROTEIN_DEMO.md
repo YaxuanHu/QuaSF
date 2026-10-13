@@ -4,6 +4,8 @@
 
 提供的 [sequences.fasta](../examples/sequences.fasta) 是这四条完整序列。QuaSF 的输入是 ESM2 残基特征，因此小型示例包同时提供这四条序列对应的原始预计算特征。**本命令不是任意 FASTA 的在线特征提取器**；更换序列需要重新生成匹配的 ESM 特征。
 
+完整安装指南见 [INSTALL.md](../INSTALL.md)，全部直接软件依赖及可选外部工具见 [DEPENDENCIES.md](../DEPENDENCIES.md)。支持使用 pip 从本仓库源码安装；当前不宣称已发布到 PyPI 或 Bioconda。
+
 ## 1. 安装
 
 以下是 Linux/macOS 的 Bash 命令，建议 Python 3.10。已有可用环境的用户可跳过安装，但仍须完成第 2 步准备输入和权重。Windows 可用 WSL 运行下列命令。

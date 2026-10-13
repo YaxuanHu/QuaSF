@@ -1,2 +1,3 @@
-# Optional: generate frozen ESM2 features instead of using recorded caches.
-fair-esm>=2.0.0,<3
+# Optional: code/data_preparation/precompute_test_esm_v2.py uses Hugging Face.
+# Additional to requirements.txt; this range is not a recovered paper lockfile.
+transformers>=4.30,<4.50

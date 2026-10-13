@@ -6,6 +6,8 @@
 
 本目录中的 `sequences.fasta` 是输入序列，`manifest.json` 记录示例包文件校验值，`expected/` 是已运行结果。特征与权重需另外下载，不能仅凭本目录的 FASTA 运行模型。
 
+完整安装指南见 [INSTALL.md](../INSTALL.md)，全部直接软件依赖及可选外部工具见 [DEPENDENCIES.md](../DEPENDENCIES.md)。支持使用 pip 从本仓库源码安装；当前不宣称已发布到 PyPI 或 Bioconda。
+
 ## 1. 安装
 
 若尚未获取代码，请先按[主目录说明](../README.md)克隆仓库。下面假定你已经位于 `QuaSF/examples/`。如果已在 `QuaSF/` 根目录，请省略 `cd ..`。
